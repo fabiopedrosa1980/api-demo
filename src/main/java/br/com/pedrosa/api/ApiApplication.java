@@ -1,0 +1,26 @@
+package br.com.pedrosa.api;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import br.com.pedrosa.api.service.impl.PopularDiscosService;
+
+@SpringBootApplication
+public class ApiApplication {
+	
+	@Autowired
+	private PopularDiscosService popularDiscosService;
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApiApplication.class, args);
+	}
+
+	@PostConstruct
+    public void init() throws Exception {
+       this.popularDiscosService.populaDiscosFromJson();
+    }
+
+}
