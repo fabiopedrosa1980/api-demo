@@ -16,6 +16,7 @@ import br.com.pedrosa.api.domain.VendaAlbum;
 import br.com.pedrosa.api.domain.VendaAlbumPK;
 import br.com.pedrosa.api.dto.VendaDTO;
 import br.com.pedrosa.api.dto.VendaEntradaDTO;
+import br.com.pedrosa.api.exception.ResourceNotFoundException;
 import br.com.pedrosa.api.repository.CashBackRepository;
 import br.com.pedrosa.api.repository.VendaAlbumRepository;
 import br.com.pedrosa.api.repository.VendaRepository;
@@ -101,8 +102,9 @@ public class VendaServiceImpl extends AbstractService<Venda, Long> implements Ve
 	}
 	
 	@Override
-	public VendaDTO findById(Long id) {
-		Venda venda = vendaRepository.findById(id).orElse(null);
+	public VendaDTO findById(Long id) throws ResourceNotFoundException {
+		Venda venda = vendaRepository.findById(id)
+				.orElseThrow(() -> new ResourceNotFoundException("Sale not found on "+ id));		
 		venda.setCashBacks(getCashBacksSale(venda));
 		return this.convertToDTO(venda);
 	}

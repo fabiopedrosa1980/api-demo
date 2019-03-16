@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import br.com.pedrosa.api.domain.Album;
 import br.com.pedrosa.api.dto.AlbumDTO;
+import br.com.pedrosa.api.exception.ResourceNotFoundException;
 import br.com.pedrosa.api.repository.AlbumRepository;
 import br.com.pedrosa.api.service.AlbumService;
 
@@ -33,8 +34,10 @@ public class AlbumServiceImpl extends AbstractService<Album, Long> implements Al
 	}
 	
 	@Override
-	public AlbumDTO findById(Long id) {
-		return this.convertToDTO(albumRepository.findById(id).orElse(null));
+	public AlbumDTO findById(Long id)throws ResourceNotFoundException {
+		return this.convertToDTO(
+				albumRepository.findById(id)
+				.orElseThrow(() -> new ResourceNotFoundException("Album not found on "+ id)));
 	}
 	
 	private Page<AlbumDTO> buildPageDTO(Page<Album> albuns) {

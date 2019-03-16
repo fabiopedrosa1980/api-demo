@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.pedrosa.api.dto.VendaDTO;
 import br.com.pedrosa.api.dto.VendaEntradaDTO;
+import br.com.pedrosa.api.exception.ResourceNotFoundException;
 import br.com.pedrosa.api.service.VendaService;
 import br.com.pedrosa.api.utils.ApiUtils;
 
@@ -29,27 +30,20 @@ public class VendaController   {
 	private VendaService vendaService;
 	
 	@GetMapping("{id}")
-	public ResponseEntity<VendaDTO> findById(@PathVariable Long id) {
-		VendaDTO entity = vendaService.findById(id);
-		if (entity == null) {
-			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-		}
-		return new ResponseEntity<VendaDTO>(entity, new HttpHeaders(), HttpStatus.OK);
+	public ResponseEntity<VendaDTO> findById(@PathVariable Long id) throws ResourceNotFoundException {
+		return ResponseEntity.ok().body(vendaService.findById(id));
 	}
 	
 	@PostMapping
 	public ResponseEntity<VendaDTO> sell(@RequestBody VendaEntradaDTO venda) {
 		VendaDTO vendaDTO = vendaService.sell(venda);
 		return new ResponseEntity<VendaDTO>(vendaDTO, new HttpHeaders(), HttpStatus.CREATED);
+		
 	}
 	
 	@GetMapping("search/{startDate}/{endDate}")
 	public ResponseEntity<Page<VendaDTO>> search(@PathVariable String startDate, @PathVariable String endDate,Pageable pageable) throws UnsupportedEncodingException {
-		Page<VendaDTO> entity = vendaService.findAllSallesByPeriod(ApiUtils.decode(startDate), ApiUtils.decode(endDate), pageable);
-		if (entity == null) {
-			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-		}
-		return new ResponseEntity<Page<VendaDTO>>(entity, new HttpHeaders(), HttpStatus.OK);
+		return ResponseEntity.ok().body( vendaService.findAllSallesByPeriod(ApiUtils.decode(startDate), ApiUtils.decode(endDate), pageable));
 	}
 
 }

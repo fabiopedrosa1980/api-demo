@@ -1,9 +1,7 @@
-package br.com.pedrosa.apibeblue;
+package br.com.pedrosa.api;
 
 import static org.junit.Assert.assertNotNull;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,12 +9,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Page;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.pedrosa.api.dto.AlbumDTO;
 import br.com.pedrosa.api.dto.VendaDTO;
 import br.com.pedrosa.api.dto.VendaEntradaDTO;
+import br.com.pedrosa.api.exception.ResourceNotFoundException;
 import br.com.pedrosa.api.service.AlbumService;
 import br.com.pedrosa.api.service.VendaService;
 
@@ -29,10 +27,9 @@ public class VendaServiceTest {
 	
 	@Autowired
 	private AlbumService albumService;
-	
 
 	@Test
-	public void sellTest() {
+	public void sellTest() throws ResourceNotFoundException {
 		VendaEntradaDTO venda = new VendaEntradaDTO();
 		Set<AlbumDTO> albums = new HashSet<>();
 		albums.add(albumService.findById(1L));

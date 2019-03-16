@@ -41,8 +41,6 @@ public class SwaggerConfig {
 	
 	@Bean
     public Docket api() {
-		
-		
 
         List<ResponseMessage> list = new java.util.ArrayList<>();
         list.add(new ResponseMessageBuilder().code(500).message("500 message")

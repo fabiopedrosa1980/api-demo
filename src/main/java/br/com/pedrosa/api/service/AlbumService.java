@@ -5,6 +5,7 @@ import org.springframework.data.domain.Pageable;
 
 import br.com.pedrosa.api.domain.Album;
 import br.com.pedrosa.api.dto.AlbumDTO;
+import br.com.pedrosa.api.exception.ResourceNotFoundException;
 
 public interface AlbumService extends CrudService<Album, Long> {
 	
@@ -12,5 +13,5 @@ public interface AlbumService extends CrudService<Album, Long> {
 	
 	Page<AlbumDTO> listAll(Pageable pageable);
 	
-	AlbumDTO findById(Long id);
+	AlbumDTO findById(Long id) throws ResourceNotFoundException;
 }

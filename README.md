@@ -10,3 +10,6 @@
 - Java 8
 - Oauth 2
 - H2
+- JPA
+
+

@@ -1,4 +1,4 @@
-package br.com.pedrosa.apibeblue;
+package br.com.pedrosa.api;
 
 import static org.junit.Assert.assertNotNull;
 
