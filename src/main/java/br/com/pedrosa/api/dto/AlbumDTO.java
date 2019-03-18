@@ -2,7 +2,9 @@ package br.com.pedrosa.api.dto;
 
 import java.io.Serializable;
 
-import br.com.pedrosa.api.domain.Genero;
+import javax.validation.Valid;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 
 public class AlbumDTO implements Serializable {
@@ -11,17 +13,23 @@ public class AlbumDTO implements Serializable {
 
 	private Long id;
 
+	@NotEmpty(message="Nome é obrigatório")
 	private String nome;
 
+	@NotEmpty(message="Artista é obrigatório")
 	private String artista;
 
+	@NotNull(message="Faixas é obrigatório")
 	private Integer faixas;
 
+	@NotEmpty(message="Data de Lançamento é obrigatório")
 	private String dataLancamento;
 
+	@NotNull(message="Preço é obrigatório")
 	private Double preco;
 	
-	private Genero genero;
+	@Valid
+	private GeneroDTO genero;
 	
 	public Long getId() {
 		return id;
@@ -63,11 +71,11 @@ public class AlbumDTO implements Serializable {
 		this.dataLancamento = dataLancamento;
 	}
 
-	public Genero getGenero() {
+	public GeneroDTO getGenero() {
 		return genero;
 	}
 
-	public void setGenero(Genero genero) {
+	public void setGenero(GeneroDTO genero) {
 		this.genero = genero;
 	}
 
