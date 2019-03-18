@@ -4,7 +4,6 @@ import java.io.UnsupportedEncodingException;
 
 import javax.validation.Valid;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -27,8 +26,11 @@ import br.com.pedrosa.api.utils.ApiUtils;
 @RequestMapping("api/V1/sale")
 public class VendaController   {
 	
-	@Autowired
 	private VendaService vendaService;
+	
+	private VendaController(VendaService vendaService) {
+		this.vendaService = vendaService;
+	}
 	
 	@GetMapping("{id}")
 	@ResponseStatus(HttpStatus.OK)

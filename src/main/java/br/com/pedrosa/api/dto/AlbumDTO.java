@@ -11,6 +11,7 @@ public class AlbumDTO implements Serializable {
 	
 	private static final long serialVersionUID = 6018637542879766039L;
 
+	@NotNull(message="Id do Album é obrigatório")
 	private Long id;
 
 	@NotEmpty(message="Nome é obrigatório")

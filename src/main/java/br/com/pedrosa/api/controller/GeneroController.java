@@ -1,6 +1,5 @@
 package br.com.pedrosa.api.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -17,8 +16,11 @@ import br.com.pedrosa.api.service.GeneroService;
 @RequestMapping("api/V1/genre")
 public class GeneroController  {
 	
-	@Autowired
 	private GeneroService generoService;
+	
+	private GeneroController(GeneroService generoService) {
+		this.generoService = generoService;
+	}
 	
 	@GetMapping
 	@ResponseStatus(HttpStatus.OK)
