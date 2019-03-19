@@ -9,7 +9,6 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.TextStyle;
 import java.util.Locale;
-import java.util.Random;
 
 public class ApiUtils {
 	
@@ -27,8 +26,9 @@ public class ApiUtils {
 		return dow.getDisplayName(TextStyle.FULL, ptBr);
 	}
 	
-	public static Double geraPrecoRandom() {
-		return  round(new Random().nextDouble()*10,2);
+	public static Double geraPrecoRandom(int max, int min) {
+		Double preco = (Math.random() * ((max - min) + 1)) + min;
+		return  round(preco,2);
 	}
 	
 	public static String decode(String value) throws UnsupportedEncodingException {

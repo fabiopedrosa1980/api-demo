@@ -65,7 +65,7 @@ public class PopularDiscosService {
 		List<Album> albuns = objectMapper.readValue(content, new TypeReference<List<Album>>() {});
 
 		for (Album album : albuns) {
-			album.setPreco(ApiUtils.geraPrecoRandom());
+			album.setPreco(ApiUtils.geraPrecoRandom(10,50));
 			albumService.salvar(album);
 			retorno = true;
 		}

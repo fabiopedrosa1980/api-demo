@@ -39,7 +39,6 @@ public class VendaServiceImpl extends AbstractService<Venda, Long> implements Ve
 	@Autowired
 	private VendaAlbumRepository vendaAlbumRepository;
 	
-	
 	@Autowired
 	public void setRepository(VendaRepository vendaRepository) {
 		super.setRepository(vendaRepository);
@@ -55,6 +54,7 @@ public class VendaServiceImpl extends AbstractService<Venda, Long> implements Ve
 		vendaRetorno.setCashBacks(this.getCashBacksSale(vendaRetorno));
 		
 		this.saveVendaAlbum(venda, vendaRetorno);
+		
 		return this.convertToDTO(vendaRetorno);
 	}
 
@@ -130,8 +130,8 @@ public class VendaServiceImpl extends AbstractService<Venda, Long> implements Ve
 	}
 	
 	private VendaDTO convertToDTO(Venda venda) {
-		VendaDTO generoDTO = modelMapper.map(venda, VendaDTO.class);
-		return generoDTO;
+		VendaDTO vendaDTO = modelMapper.map(venda, VendaDTO.class);
+		return vendaDTO;
 	}
 	private Venda convertToEntity(VendaEntradaDTO vendaEntradaDTO) {
 		Venda venda = modelMapper.map(vendaEntradaDTO, Venda.class);

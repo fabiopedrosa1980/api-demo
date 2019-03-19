@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class VendaDTO implements Serializable {
 	
@@ -15,11 +16,11 @@ public class VendaDTO implements Serializable {
 	private Double cashBack;
 
 	private Double valorTotal;
-
+	
+	@JsonIgnore
 	private Set<AlbumDTO> albuns;
 	
 	private Set<CashBackDTO> cashBacks;
-	
 
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
 	private LocalDateTime dataVenda;
