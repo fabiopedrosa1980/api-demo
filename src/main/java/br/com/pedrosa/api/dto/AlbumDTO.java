@@ -15,23 +15,23 @@ public class AlbumDTO implements Serializable {
 	private Long id;
 
 	@NotEmpty(message="Nome é obrigatório")
-	private String nome;
+	private String name;
 
 	@NotEmpty(message="Artista é obrigatório")
-	private String artista;
+	private String artist;
 
 	@NotNull(message="Faixas é obrigatório")
-	private Integer faixas;
+	private Integer tracks;
 
 	@NotEmpty(message="Data de Lançamento é obrigatório")
-	private String dataLancamento;
+	private String dateRelease;
 
 	@NotNull(message="Preço é obrigatório")
-	private Double preco;
+	private Double price;
 	
 	@Valid
-	private GeneroDTO genero;
-	
+	private GenreDTO genre;
+
 	public Long getId() {
 		return id;
 	}
@@ -40,52 +40,53 @@ public class AlbumDTO implements Serializable {
 		this.id = id;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getArtista() {
-		return artista;
+	public String getArtist() {
+		return artist;
 	}
 
-	public void setArtista(String artista) {
-		this.artista = artista;
+	public void setArtist(String artist) {
+		this.artist = artist;
 	}
 
-	public Integer getFaixas() {
-		return faixas;
+	public Integer getTracks() {
+		return tracks;
 	}
 
-	public void setFaixas(Integer faixas) {
-		this.faixas = faixas;
+	public void setTracks(Integer tracks) {
+		this.tracks = tracks;
 	}
 
-	public String getDataLancamento() {
-		return dataLancamento;
+
+	public String getDateRelease() {
+		return dateRelease;
 	}
 
-	public void setDataLancamento(String dataLancamento) {
-		this.dataLancamento = dataLancamento;
+	public void setDateRelease(String dateRelease) {
+		this.dateRelease = dateRelease;
 	}
 
-	public GeneroDTO getGenero() {
-		return genero;
+	public Double getPrice() {
+		return price;
 	}
 
-	public void setGenero(GeneroDTO genero) {
-		this.genero = genero;
+	public void setPrice(Double price) {
+		this.price = price;
 	}
 
-	public Double getPreco() {
-		return preco;
+	public GenreDTO getGenre() {
+		return genre;
 	}
 
-	public void setPreco(Double preco) {
-		this.preco = preco;
+	public void setGenre(GenreDTO genre) {
+		this.genre = genre;
 	}
 	
 }

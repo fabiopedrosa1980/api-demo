@@ -12,6 +12,8 @@ import java.util.Locale;
 
 public class ApiUtils {
 	
+	private ApiUtils() {}
+	
 	public static Double round(double value, int places) {
 	    if (places < 0) throw new IllegalArgumentException();
 	    BigDecimal bd = new BigDecimal(Double.toString(value));
@@ -19,16 +21,16 @@ public class ApiUtils {
 	    return bd.doubleValue();
 	}
 	
-	public static String getDiaSemana() {
+	public static String getDayOfWeek() {
 		LocalDate date = LocalDate.now();
 		DayOfWeek dow = date.getDayOfWeek();
 		Locale ptBr = new Locale("pt", "BR");
 		return dow.getDisplayName(TextStyle.FULL, ptBr);
 	}
 	
-	public static Double geraPrecoRandom(int max, int min) {
-		Double preco = (Math.random() * ((max - min) + 1)) + min;
-		return  round(preco,2);
+	public static Double generatePriceRandom(int max, int min) {
+		Double price = (Math.random() * ((max - min) + 1)) + min;
+		return  round(price,2);
 	}
 	
 	public static String decode(String value) throws UnsupportedEncodingException {

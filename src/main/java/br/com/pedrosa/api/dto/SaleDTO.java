@@ -7,7 +7,7 @@ import java.util.Set;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-public class VendaDTO implements Serializable {
+public class SaleDTO implements Serializable {
 	
 	private static final long serialVersionUID = 6088447928589369131L;
 
@@ -15,7 +15,7 @@ public class VendaDTO implements Serializable {
 
 	private Double cashBack;
 
-	private Double valorTotal;
+	private Double totalOrder;
 	
 	@JsonIgnore
 	private Set<AlbumDTO> albuns;
@@ -23,7 +23,7 @@ public class VendaDTO implements Serializable {
 	private Set<CashBackDTO> cashBacks;
 
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
-	private LocalDateTime dataVenda;
+	private LocalDateTime dateSale;
 
 	public Long getId() {
 		return id;
@@ -31,22 +31,6 @@ public class VendaDTO implements Serializable {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public Set<AlbumDTO> getAlbuns() {
-		return albuns;
-	}
-
-	public void setAlbuns(Set<AlbumDTO> albuns) {
-		this.albuns = albuns;
-	}
-
-	public LocalDateTime getDataVenda() {
-		return dataVenda;
-	}
-
-	public void setDataVenda(LocalDateTime dataVenda) {
-		this.dataVenda = dataVenda;
 	}
 
 	public Double getCashBack() {
@@ -57,12 +41,20 @@ public class VendaDTO implements Serializable {
 		this.cashBack = cashBack;
 	}
 
-	public Double getValorTotal() {
-		return valorTotal;
+	public Double getTotalOrder() {
+		return totalOrder;
 	}
 
-	public void setValorTotal(Double valorTotal) {
-		this.valorTotal = valorTotal;
+	public void setTotalOrder(Double totalOrder) {
+		this.totalOrder = totalOrder;
+	}
+
+	public Set<AlbumDTO> getAlbuns() {
+		return albuns;
+	}
+
+	public void setAlbuns(Set<AlbumDTO> albuns) {
+		this.albuns = albuns;
 	}
 
 	public Set<CashBackDTO> getCashBacks() {
@@ -71,6 +63,14 @@ public class VendaDTO implements Serializable {
 
 	public void setCashBacks(Set<CashBackDTO> cashBacks) {
 		this.cashBacks = cashBacks;
+	}
+
+	public LocalDateTime getDateSale() {
+		return dateSale;
+	}
+
+	public void setDateSale(LocalDateTime dateSale) {
+		this.dateSale = dateSale;
 	}
 
 }

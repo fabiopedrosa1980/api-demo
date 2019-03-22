@@ -10,8 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="GENERO")
-public class Genero implements Serializable  {
+@Table(name="GENRE")
+public class Genre implements Serializable  {
 
 	private static final long serialVersionUID = 5583646792340622221L;
 
@@ -20,7 +20,7 @@ public class Genero implements Serializable  {
 	@Column(name = "ID")
 	private Long id;
 
-	private String descricao;
+	private String description;
 
 	public Long getId() {
 		return id;
@@ -30,12 +30,11 @@ public class Genero implements Serializable  {
 		this.id = id;
 	}
 
-	public String getDescricao() {
-		return descricao;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	public void setDescription(String description) {
+		this.description = description;
 	}
-	
 }

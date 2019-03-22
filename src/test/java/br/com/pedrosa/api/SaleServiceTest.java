@@ -12,59 +12,38 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.pedrosa.api.dto.AlbumDTO;
-import br.com.pedrosa.api.dto.VendaDTO;
-import br.com.pedrosa.api.dto.VendaEntradaDTO;
+import br.com.pedrosa.api.dto.SaleDTO;
+import br.com.pedrosa.api.dto.SaleInDTO;
 import br.com.pedrosa.api.exception.ResourceNotFoundException;
 import br.com.pedrosa.api.service.AlbumService;
-import br.com.pedrosa.api.service.VendaService;
+import br.com.pedrosa.api.service.SaleService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class VendaServiceTest {
+public class SaleServiceTest {
 	
 	@Autowired
-	private VendaService vendaService;
+	private SaleService saleService;
 	
 	@Autowired
 	private AlbumService albumService;
 
 	@Test
 	public void sellTest() throws ResourceNotFoundException {
-		VendaEntradaDTO venda = new VendaEntradaDTO();
+		SaleInDTO venda = new SaleInDTO();
 		Set<AlbumDTO> albums = new HashSet<>();
 		albums.add(albumService.findById(1L));
 		albums.add(albumService.findById(2L));
 		albums.add(albumService.findById(3L));
 		albums.add(albumService.findById(4L));
 		venda.setAlbuns(albums);
-		VendaDTO vendaDTO = vendaService.sell(venda);
+		SaleDTO vendaDTO = saleService.sell(venda);
 		assertNotNull(vendaDTO);
-		assertNotNull(vendaDTO.getValorTotal());
+		assertNotNull(vendaDTO.getTotalOrder());
 		assertNotNull(vendaDTO.getCashBack());
-		assertNotNull(vendaDTO.getDataVenda());
+		assertNotNull(vendaDTO.getDateSale());
 		
 	}
-	
-	/*@Test
-	public void searchSalleTest() {
-		VendaEntradaDTO venda = new VendaEntradaDTO();
-		Set<AlbumDTO> albums = new HashSet<>();
-		albums.add(albumService.findById(1L));
-		venda.setAlbuns(albums);
-		vendaService.sell(venda);
-		
-		LocalDate date = LocalDate.now();
-	    DateTimeFormatter formatters = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-	    String text = date.format(formatters);
-		
-		String startDate = text + " 00:00:00";
-		String endDate =  text + " 23:59:59";
-		Page<VendaDTO> vendasDTO = vendaService.findAllSallesByPeriod(startDate, endDate, null);
-		assertNotNull(vendasDTO);
-		
-		
-	}*/
-	
 	
 
 }

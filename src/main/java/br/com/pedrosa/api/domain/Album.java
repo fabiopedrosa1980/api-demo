@@ -21,18 +21,18 @@ public class Album implements Serializable {
 	@Column(name = "ID")
 	private Long id;
 	
-	private String nome;
+	private String name;
 
-	private String artista;
+	private String artist;
 
-	private Integer faixas;
+	private Integer tracks;
 
-	private String dataLancamento;
+	private String dateRelease;
 
-	private Double preco;
+	private Double price;
 	
 	@OneToOne
-	private Genero genero;
+	private Genre genre;
 
 	public Long getId() {
 		return id;
@@ -42,52 +42,52 @@ public class Album implements Serializable {
 		this.id = id;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getArtista() {
-		return artista;
+	public String getArtist() {
+		return artist;
 	}
 
-	public void setArtista(String artista) {
-		this.artista = artista;
+	public void setArtist(String artist) {
+		this.artist = artist;
 	}
 
-	public Integer getFaixas() {
-		return faixas;
+	public Integer getTracks() {
+		return tracks;
 	}
 
-	public void setFaixas(Integer faixas) {
-		this.faixas = faixas;
+	public void setTracks(Integer tracks) {
+		this.tracks = tracks;
 	}
 
-	public String getDataLancamento() {
-		return dataLancamento;
+	public String getDateRelease() {
+		return dateRelease;
 	}
 
-	public void setDataLancamento(String dataLancamento) {
-		this.dataLancamento = dataLancamento;
+	public void setDateRelease(String dateRelease) {
+		this.dateRelease = dateRelease;
 	}
 
-	public Genero getGenero() {
-		return genero;
+	public Double getPrice() {
+		return price;
 	}
 
-	public void setGenero(Genero genero) {
-		this.genero = genero;
+	public void setPrice(Double price) {
+		this.price = price;
 	}
 
-	public Double getPreco() {
-		return preco;
+	public Genre getGenre() {
+		return genre;
 	}
 
-	public void setPreco(Double preco) {
-		this.preco = preco;
+	public void setGenre(Genre genre) {
+		this.genre = genre;
 	}
 	
 }

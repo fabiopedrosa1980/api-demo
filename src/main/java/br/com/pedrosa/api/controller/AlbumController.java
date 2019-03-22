@@ -20,7 +20,7 @@ public class AlbumController{
 	
 	private AlbumService albumService;
 	
-	private AlbumController(AlbumService albumService) {
+	public AlbumController(AlbumService albumService) {
 		this.albumService = albumService;
 	}
 	
@@ -33,7 +33,7 @@ public class AlbumController{
 	@GetMapping("genre/{genreId}")
 	@ResponseStatus(HttpStatus.OK)
 	public Page<AlbumDTO> findByGenreId(@PathVariable Long genreId,Pageable pageable) {
-		return albumService.findByGeneroId(genreId, pageable);
+		return albumService.findByGenreId(genreId, pageable);
 	}
 	
 	@GetMapping

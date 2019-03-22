@@ -15,39 +15,39 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.pedrosa.api.dto.VendaDTO;
-import br.com.pedrosa.api.dto.VendaEntradaDTO;
+import br.com.pedrosa.api.dto.SaleDTO;
+import br.com.pedrosa.api.dto.SaleInDTO;
 import br.com.pedrosa.api.exception.ResourceNotFoundException;
-import br.com.pedrosa.api.service.VendaService;
+import br.com.pedrosa.api.service.SaleService;
 import br.com.pedrosa.api.utils.ApiUtils;
 
 
 @RestController
 @RequestMapping("api/V1/sale")
-public class VendaController   {
+public class SaleController   {
 	
-	private VendaService vendaService;
+	private SaleService vendaService;
 	
-	private VendaController(VendaService vendaService) {
+	public SaleController(SaleService vendaService) {
 		this.vendaService = vendaService;
 	}
 	
 	@GetMapping("{id}")
 	@ResponseStatus(HttpStatus.OK)
-	public VendaDTO findById(@PathVariable Long id) throws ResourceNotFoundException {
+	public SaleDTO findById(@PathVariable Long id) throws ResourceNotFoundException {
 		return vendaService.findById(id);
 	}
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
-	public VendaDTO sell(@Valid @RequestBody VendaEntradaDTO venda) {
+	public SaleDTO sell(@Valid @RequestBody SaleInDTO venda) {
 		return vendaService.sell(venda);
 		
 	}
 	
 	@GetMapping("search/{startDate}/{endDate}")
 	@ResponseStatus(HttpStatus.OK)
-	public Page<VendaDTO> search(@PathVariable String startDate, @PathVariable String endDate,Pageable pageable) throws UnsupportedEncodingException {
+	public Page<SaleDTO> search(@PathVariable String startDate, @PathVariable String endDate,Pageable pageable) throws UnsupportedEncodingException {
 		return vendaService.findAllSallesByPeriod(ApiUtils.decode(startDate), ApiUtils.decode(endDate), pageable);
 	}
 

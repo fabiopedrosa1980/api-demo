@@ -6,7 +6,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 
-public class GeneroDTO implements Serializable  {
+public class GenreDTO implements Serializable  {
 
 	private static final long serialVersionUID = 5583646792340622221L;
 
@@ -15,7 +15,7 @@ public class GeneroDTO implements Serializable  {
 	private Long id;
 
 	@NotEmpty(message="Descrição do Genero é obrigatório")
-	private String descricao;
+	private String description;
 
 	public Long getId() {
 		return id;
@@ -25,12 +25,14 @@ public class GeneroDTO implements Serializable  {
 		this.id = id;
 	}
 
-	public String getDescricao() {
-		return descricao;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	public void setDescription(String description) {
+		this.description = description;
 	}
+	
+	
 	
 }

@@ -20,18 +20,16 @@ public class CashBack implements Serializable {
 	@Column(name = "ID")
 	private Long id;
 
-	private Double valor;
+	private Double amount;
 	
-	private Long idVenda;
+	private Long idSale;
 	
 	private Long idAlbum;
-	
-	public CashBack() {}
-	
-	public CashBack(Double valor, Long idVenda, Long idAlbum) {
+
+	public CashBack(Double amount, Long idSale, Long idAlbum) {
 		super();
-		this.valor = valor;
-		this.idVenda = idVenda;
+		this.amount = amount;
+		this.idSale = idSale;
 		this.idAlbum = idAlbum;
 	}
 
@@ -43,20 +41,20 @@ public class CashBack implements Serializable {
 		this.id = id;
 	}
 
-	public Double getValor() {
-		return valor;
+	public Double getAmount() {
+		return amount;
 	}
 
-	public void setValor(Double valor) {
-		this.valor = valor;
+	public void setAmount(Double amount) {
+		this.amount = amount;
 	}
 
-	public Long getIdVenda() {
-		return idVenda;
+	public Long getIdSale() {
+		return idSale;
 	}
 
-	public void setIdVenda(Long idVenda) {
-		this.idVenda = idVenda;
+	public void setIdSale(Long idSale) {
+		this.idSale = idSale;
 	}
 
 	public Long getIdAlbum() {
@@ -67,6 +65,5 @@ public class CashBack implements Serializable {
 		this.idAlbum = idAlbum;
 	}
 	
-
 	
 }

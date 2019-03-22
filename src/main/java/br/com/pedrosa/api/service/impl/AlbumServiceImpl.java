@@ -2,7 +2,7 @@ package br.com.pedrosa.api.service.impl;
 
 import java.util.function.Function;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -14,17 +14,24 @@ import br.com.pedrosa.api.repository.AlbumRepository;
 import br.com.pedrosa.api.service.AlbumService;
 
 @Service
-public class AlbumServiceImpl extends AbstractService<Album, Long> implements AlbumService {
+public class AlbumServiceImpl implements AlbumService {
 	
 	private AlbumRepository albumRepository;
 	
-	@Autowired
-	public void setRepository(AlbumRepository albumRepository) {
+	private ModelMapper modelMapper;
+	
+	public AlbumServiceImpl(AlbumRepository albumRepository, ModelMapper modelMapper) {
 		this.albumRepository = albumRepository;
-		super.setRepository(albumRepository);
+		this.modelMapper = modelMapper;
 	}
+	
 	@Override
-	public Page<AlbumDTO> findByGeneroId(Long generoId, Pageable pageable) {
+	public void save(Album album) {
+		albumRepository.save(album);
+	}
+	
+	@Override
+	public Page<AlbumDTO> findByGenreId(Long generoId, Pageable pageable) {
 		return this.buildPageDTO(albumRepository.findByGeneroId(generoId, pageable));
 	}
 
@@ -41,19 +48,20 @@ public class AlbumServiceImpl extends AbstractService<Album, Long> implements Al
 	}
 	
 	private Page<AlbumDTO> buildPageDTO(Page<Album> albuns) {
-		Page<AlbumDTO> dtoAlbum = albuns.map(new Function<Album, AlbumDTO>() {
+		return albuns.map(new Function<Album, AlbumDTO>() {
 		    @Override
 		    public AlbumDTO apply(Album album) {
 		        return convertToDTO(album);
 		    }
 		});
-		return dtoAlbum;
+		
 	}
 	
 	private AlbumDTO convertToDTO(Album album) {
-		AlbumDTO albumDTO = modelMapper.map(album, AlbumDTO.class);
-		return albumDTO;
+		return modelMapper.map(album, AlbumDTO.class);
 	}
+
+	
 	
 
 }

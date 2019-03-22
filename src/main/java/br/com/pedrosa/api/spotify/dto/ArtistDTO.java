@@ -1,6 +1,6 @@
 package br.com.pedrosa.api.spotify.dto;
 
-public class ArtistaDTO {
+public class ArtistDTO {
 	
 	private String id;
 	

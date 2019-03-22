@@ -12,8 +12,8 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="CONFIGPRECO")
-public class ConfigPreco implements Serializable {
+@Table(name="CONFIGPRICE")
+public class ConfigPrice implements Serializable {
 
 	private static final long serialVersionUID = 5036657966884765000L;
 
@@ -22,12 +22,12 @@ public class ConfigPreco implements Serializable {
 	@Column(name = "ID")
 	private Long id;
 
-	private String dia;
+	private String day;
 	
-	private Double porcentagem;
+	private Double percent;
 	
 	@ManyToOne
-	private Genero genero;
+	private Genre genre;
 
 	public Long getId() {
 		return id;
@@ -37,30 +37,28 @@ public class ConfigPreco implements Serializable {
 		this.id = id;
 	}
 
-	public String getDia() {
-		return dia;
+	public String getDay() {
+		return day;
 	}
 
-	public void setDia(String dia) {
-		this.dia = dia;
+	public void setDay(String day) {
+		this.day = day;
 	}
 
-	public Double getPorcentagem() {
-		return porcentagem;
+	public Double getPercent() {
+		return percent;
 	}
 
-	public void setPorcentagem(Double porcentagem) {
-		this.porcentagem = porcentagem;
+	public void setPercent(Double percent) {
+		this.percent = percent;
 	}
 
-	public Genero getGenero() {
-		return genero;
+	public Genre getGenre() {
+		return genre;
 	}
 
-	public void setGenero(Genero genero) {
-		this.genero = genero;
+	public void setGenre(Genre genre) {
+		this.genre = genre;
 	}
-	
-			
 	
 }

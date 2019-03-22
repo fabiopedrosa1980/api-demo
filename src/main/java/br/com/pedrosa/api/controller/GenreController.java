@@ -8,23 +8,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.pedrosa.api.dto.GeneroDTO;
-import br.com.pedrosa.api.service.GeneroService;
+import br.com.pedrosa.api.dto.GenreDTO;
+import br.com.pedrosa.api.service.GenreService;
 
 
 @RestController
 @RequestMapping("api/V1/genre")
-public class GeneroController  {
+public class GenreController  {
 	
-	private GeneroService generoService;
+	private GenreService generoService;
 	
-	private GeneroController(GeneroService generoService) {
+	public GenreController(GenreService generoService) {
 		this.generoService = generoService;
 	}
 	
 	@GetMapping
 	@ResponseStatus(HttpStatus.OK)
-	public Page<GeneroDTO> listAll(Pageable pageable) {
+	public Page<GenreDTO> listAll(Pageable pageable) {
 		return generoService.listAll(pageable);
 	}
 

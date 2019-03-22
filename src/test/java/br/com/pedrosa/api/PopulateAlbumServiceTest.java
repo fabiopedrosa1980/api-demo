@@ -8,18 +8,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import br.com.pedrosa.api.service.impl.PopularDiscosService;
+import br.com.pedrosa.api.service.impl.PopulateAlbunsService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PopulaDiscoServiceTest {
+public class PopulateAlbumServiceTest {
 	
 	@Autowired
-	private PopularDiscosService popularDiscosService;
+	private PopulateAlbunsService populateAlbunsService;
 
 	@Test
-	public void populaDiscosFromJsonTest() throws Exception {
-		assertTrue(popularDiscosService.populaDiscosFromJson());
+	public void populateAlbumFromJsonTest() throws Exception {
+		assertTrue(populateAlbunsService.populateAlbunsFromJson());
 	}
 
 }

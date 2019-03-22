@@ -1,6 +1,6 @@
 package br.com.pedrosa.api.spotify.dto;
 
-public class ResponseSpotfyDTO {
+public class ResponseSpotifyDTO {
 	
 	private AlbumDTO albums;
 
@@ -11,7 +11,5 @@ public class ResponseSpotfyDTO {
 	public void setAlbums(AlbumDTO albums) {
 		this.albums = albums;
 	}
-
-	
 
 }

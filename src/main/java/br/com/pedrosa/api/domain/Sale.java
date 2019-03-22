@@ -13,8 +13,8 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 @Entity
-@Table(name="VENDA")
-public class Venda implements Serializable {
+@Table(name="SALE")
+public class Sale implements Serializable {
 	
 	private static final long serialVersionUID = 5013830910329128861L;
 
@@ -25,7 +25,7 @@ public class Venda implements Serializable {
 	
 	private Double cashBack;
 	
-	private Double valorTotal;
+	private Double totalOrder;
 	
 	@Transient
 	private Set<Album> albuns;
@@ -34,57 +34,66 @@ public class Venda implements Serializable {
 	private Set<CashBack> cashBacks;
 	
 	
-	private LocalDateTime dataVenda;
+	private LocalDateTime dateSale;
+
 
 	public Long getId() {
 		return id;
 	}
 
+
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
-	public Set<Album> getAlbuns() {
-		return albuns;
-	}
 
-	public void setAlbuns(Set<Album> albuns) {
-		this.albuns = albuns;
-	}
-
-	public LocalDateTime getDataVenda() {
-		return dataVenda;
-	}
-
-	public void setDataVenda(LocalDateTime dataVenda) {
-		this.dataVenda = dataVenda;
-	}
 
 	public Double getCashBack() {
 		return cashBack;
 	}
 
+
 	public void setCashBack(Double cashBack) {
 		this.cashBack = cashBack;
 	}
 
-	public Double getValorTotal() {
-		return valorTotal;
+
+	public Double getTotalOrder() {
+		return totalOrder;
 	}
 
-	public void setValorTotal(Double valorTotal) {
-		this.valorTotal = valorTotal;
+
+	public void setTotalOrder(Double totalOrder) {
+		this.totalOrder = totalOrder;
 	}
-	
+
+
+	public Set<Album> getAlbuns() {
+		return albuns;
+	}
+
+
+	public void setAlbuns(Set<Album> albuns) {
+		this.albuns = albuns;
+	}
+
+
 	public Set<CashBack> getCashBacks() {
 		return cashBacks;
 	}
+
 
 	public void setCashBacks(Set<CashBack> cashBacks) {
 		this.cashBacks = cashBacks;
 	}
 
-	
-	
 
+	public LocalDateTime getDateSale() {
+		return dateSale;
+	}
+
+
+	public void setDateSale(LocalDateTime dateSale) {
+		this.dateSale = dateSale;
+	}
+	
 }

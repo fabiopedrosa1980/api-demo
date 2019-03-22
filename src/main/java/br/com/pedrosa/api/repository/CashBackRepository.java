@@ -8,5 +8,5 @@ import br.com.pedrosa.api.domain.CashBack;
 
 public interface CashBackRepository extends JpaRepository<CashBack, Long> {
 	
-	Set<CashBack> findByIdVenda(Long idVenda);
+	Set<CashBack> findByIdSale(Long idSale);
 }

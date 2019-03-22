@@ -8,9 +8,9 @@ public class CashBackDTO implements Serializable {
 
 	private Long id;
 
-	private Double valor;
+	private Double amount;
 	
-	private Long idVenda;
+	private Long idSale;
 	
 	private Long idAlbum;
 
@@ -22,20 +22,20 @@ public class CashBackDTO implements Serializable {
 		this.id = id;
 	}
 
-	public Double getValor() {
-		return valor;
+	public Double getAmount() {
+		return amount;
 	}
 
-	public void setValor(Double valor) {
-		this.valor = valor;
+	public void setAmount(Double amount) {
+		this.amount = amount;
 	}
 
-	public Long getIdVenda() {
-		return idVenda;
+	public Long getIdSale() {
+		return idSale;
 	}
 
-	public void setIdVenda(Long idVenda) {
-		this.idVenda = idVenda;
+	public void setIdSale(Long idSale) {
+		this.idSale = idSale;
 	}
 
 	public Long getIdAlbum() {
@@ -45,5 +45,5 @@ public class CashBackDTO implements Serializable {
 	public void setIdAlbum(Long idAlbum) {
 		this.idAlbum = idAlbum;
 	}
-
+	
 }

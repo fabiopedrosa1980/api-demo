@@ -34,21 +34,23 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 	
 	@Value("${security.oauth2.client.client-id}")
-	private String CLIENT_ID;
+	private String clientId;
 	
 	@Value("${security.oauth2.client.client-secret}")
-	private String CLIENT_SECRET;
+	private String clientSecret;
+	
+	private static final String RESULT = "Result";
 	
 	@Bean
     public Docket api() {
 
         List<ResponseMessage> list = new java.util.ArrayList<>();
         list.add(new ResponseMessageBuilder().code(500).message("500 message")
-                .responseModel(new ModelRef("Result")).build());
+                .responseModel(new ModelRef(RESULT)).build());
         list.add(new ResponseMessageBuilder().code(401).message("Unauthorized")
-                .responseModel(new ModelRef("Result")).build());
+                .responseModel(new ModelRef(RESULT)).build());
         list.add(new ResponseMessageBuilder().code(406).message("Not Acceptable")
-                .responseModel(new ModelRef("Result")).build());
+                .responseModel(new ModelRef(RESULT)).build());
 
         return new Docket(DocumentationType.SWAGGER_2).select()
         		.apis(RequestHandlerSelectors.basePackage("br.com.pedrosa.api.controller"))
@@ -62,13 +64,8 @@ public class SwaggerConfig {
     private OAuth securitySchema() {
 
         List<AuthorizationScope> authorizationScopeList = new ArrayList<>();
-        //authorizationScopeList.add(new AuthorizationScope("read", "read all"));
-        //authorizationScopeList.add(new AuthorizationScope("trust", "trust all"));
-        //authorizationScopeList.add(new AuthorizationScope("write", "access all"));
-
         List<GrantType> grantTypes = new ArrayList<>();
         GrantType creGrant = new ResourceOwnerPasswordCredentialsGrant("http://localhost:8088/oauth/token");
-
         grantTypes.add(creGrant);
 
         return new OAuth("oauth2schema", authorizationScopeList, grantTypes);
@@ -92,7 +89,7 @@ public class SwaggerConfig {
 
     @Bean
     public SecurityConfiguration securityInfo() {
-        return new SecurityConfiguration(CLIENT_ID, CLIENT_SECRET, "", "", "", ApiKeyVehicle.HEADER, "", " ");
+        return new SecurityConfiguration(clientId, clientSecret, "", "", "", ApiKeyVehicle.HEADER, "", " ");
     }
 
     private ApiInfo apiInfo() {

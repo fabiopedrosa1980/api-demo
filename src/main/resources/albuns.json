@@ -1,2402 +1,2402 @@
 [
     {
       "id": 1,
-      "nome": "O Papa É Pop",
-      "artista": "Engenheiros Do Hawaii",
-      "faixas": 11,
-      "dataLancamento": "1990",
-      "preco": 10,
-      "genero": {
+      "name": "O Papa É Pop",
+      "artist": "Engenheiros Do Hawaii",
+      "tracks": 11,
+      "dateRelease": "1990",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 2,
-      "nome": "POP/STARS",
-      "artista": "K/DA",
-      "faixas": 1,
-      "dataLancamento": "2018-11-03",
-      "preco": 10,
-      "genero": {
+      "name": "POP/STARS",
+      "artist": "K/DA",
+      "tracks": 1,
+      "dateRelease": "2018-11-03",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 3,
-      "nome": "Discotecagem Pop Variada",
-      "artista": "Jota Quest",
-      "faixas": 13,
-      "dataLancamento": "2002-06-15",
-      "preco": 10,
-      "genero": {
+      "name": "Discotecagem Pop Variada",
+      "artist": "Jota Quest",
+      "tracks": 13,
+      "dateRelease": "2002-06-15",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 4,
-      "nome": "'70s Pop #1's",
-      "artista": "Various Artists",
-      "faixas": 18,
-      "dataLancamento": "2007-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "'70s Pop #1's",
+      "artist": "Various Artists",
+      "tracks": 18,
+      "dateRelease": "2007-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 5,
-      "nome": "Pop 2",
-      "artista": "Charli XCX",
-      "faixas": 10,
-      "dataLancamento": "2017-12-15",
-      "preco": 10,
-      "genero": {
+      "name": "Pop 2",
+      "artist": "Charli XCX",
+      "tracks": 10,
+      "dateRelease": "2017-12-15",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 6,
-      "nome": "Japan Pop Show",
-      "artista": "Curumin",
-      "faixas": 13,
-      "dataLancamento": "2008-06-24",
-      "preco": 10,
-      "genero": {
+      "name": "Japan Pop Show",
+      "artist": "Curumin",
+      "tracks": 13,
+      "dateRelease": "2008-06-24",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 7,
-      "nome": "Pop",
-      "artista": "U2",
-      "faixas": 12,
-      "dataLancamento": "1997-03-03",
-      "preco": 10,
-      "genero": {
+      "name": "Pop",
+      "artist": "U2",
+      "tracks": 12,
+      "dateRelease": "1997-03-03",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 8,
-      "nome": "Arena Pop 2014",
-      "artista": "Various Artists",
-      "faixas": 20,
-      "dataLancamento": "2014-04-07",
-      "preco": 10,
-      "genero": {
+      "name": "Arena Pop 2014",
+      "artist": "Various Artists",
+      "tracks": 20,
+      "dateRelease": "2014-04-07",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 9,
-      "nome": "Pop Life",
-      "artista": "David Guetta",
-      "faixas": 15,
-      "dataLancamento": "2007-06-15",
-      "preco": 10,
-      "genero": {
+      "name": "Pop Life",
+      "artist": "David Guetta",
+      "tracks": 15,
+      "dateRelease": "2007-06-15",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 10,
-      "nome": "Lust For Life",
-      "artista": "Iggy Pop",
-      "faixas": 9,
-      "dataLancamento": "1977-08-29",
-      "preco": 10,
-      "genero": {
+      "name": "Lust For Life",
+      "artist": "Iggy Pop",
+      "tracks": 9,
+      "dateRelease": "1977-08-29",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 11,
-      "nome": "PTX Presents: Top Pop, Vol. I",
-      "artista": "Pentatonix",
-      "faixas": 11,
-      "dataLancamento": "2018-04-13",
-      "preco": 10,
-      "genero": {
+      "name": "PTX Presents: Top Pop, Vol. I",
+      "artist": "Pentatonix",
+      "tracks": 11,
+      "dateRelease": "2018-04-13",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 12,
-      "nome": "THIS IS... ICONA POP",
-      "artista": "Icona Pop",
-      "faixas": 11,
-      "dataLancamento": "2013-08-27",
-      "preco": 10,
-      "genero": {
+      "name": "THIS IS... ICONA POP",
+      "artist": "Icona Pop",
+      "tracks": 11,
+      "dateRelease": "2013-08-27",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 13,
-      "nome": "Don't Feed The Pop Monster",
-      "artista": "Broods",
-      "faixas": 12,
-      "dataLancamento": "2019-02-01",
-      "preco": 10,
-      "genero": {
+      "name": "Don't Feed The Pop Monster",
+      "artist": "Broods",
+      "tracks": 12,
+      "dateRelease": "2019-02-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 14,
-      "nome": "Welcome To COPACABANA - The Brazilian Melting Pop",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2014-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Welcome To COPACABANA - The Brazilian Melting Pop",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2014-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 15,
-      "nome": "Para Sempre - Pop Rock",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2001-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Para Sempre - Pop Rock",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2001-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 16,
-      "nome": "Geração Pop",
-      "artista": "Ultraje a Rigor",
-      "faixas": 16,
-      "dataLancamento": "1987-03-25",
-      "preco": 10,
-      "genero": {
+      "name": "Geração Pop",
+      "artist": "Ultraje a Rigor",
+      "tracks": 16,
+      "dateRelease": "1987-03-25",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 17,
-      "nome": "Phantom Pop",
-      "artista": "Wild Party",
-      "faixas": 12,
-      "dataLancamento": "2014-10-07",
-      "preco": 10,
-      "genero": {
+      "name": "Phantom Pop",
+      "artist": "Wild Party",
+      "tracks": 12,
+      "dateRelease": "2014-10-07",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 18,
-      "nome": "Geração Pop",
-      "artista": "Baby Do Brasil",
-      "faixas": 12,
-      "dataLancamento": "1978-09-14",
-      "preco": 10,
-      "genero": {
+      "name": "Geração Pop",
+      "artist": "Baby Do Brasil",
+      "tracks": 12,
+      "dateRelease": "1978-09-14",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 19,
-      "nome": "Geração Pop 2",
-      "artista": "Kid Abelha",
-      "faixas": 13,
-      "dataLancamento": "2006-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Geração Pop 2",
+      "artist": "Kid Abelha",
+      "tracks": 13,
+      "dateRelease": "2006-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 20,
-      "nome": "Pop Food",
-      "artista": "Jack Stauber",
-      "faixas": 11,
-      "dataLancamento": "2017-03-25",
-      "preco": 10,
-      "genero": {
+      "name": "Pop Food",
+      "artist": "Jack Stauber",
+      "tracks": 11,
+      "dateRelease": "2017-03-25",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 21,
-      "nome": "Ballet Goes Pop - Volume 1",
-      "artista": "Modern Ballet Class Series",
-      "faixas": 40,
-      "dataLancamento": "2012-07-09",
-      "preco": 10,
-      "genero": {
+      "name": "Ballet Goes Pop - Volume 1",
+      "artist": "Modern Ballet Class Series",
+      "tracks": 40,
+      "dateRelease": "2012-07-09",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 22,
-      "nome": "Definitive Pop: America",
-      "artista": "America",
-      "faixas": 30,
-      "dataLancamento": "2007-02-05",
-      "preco": 10,
-      "genero": {
+      "name": "Definitive Pop: America",
+      "artist": "America",
+      "tracks": 30,
+      "dateRelease": "2007-02-05",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 23,
-      "nome": "Geração Pop",
-      "artista": "Pepeu Gomes",
-      "faixas": 12,
-      "dataLancamento": "1988-08-22",
-      "preco": 10,
-      "genero": {
+      "name": "Geração Pop",
+      "artist": "Pepeu Gomes",
+      "tracks": 12,
+      "dateRelease": "1988-08-22",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 24,
-      "nome": "KIDZ BOP Non Stop Pop",
-      "artista": "Kidz Bop Kids",
-      "faixas": 211,
-      "dataLancamento": "2017-03-30",
-      "preco": 10,
-      "genero": {
+      "name": "KIDZ BOP Non Stop Pop",
+      "artist": "Kidz Bop Kids",
+      "tracks": 211,
+      "dateRelease": "2017-03-30",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 25,
-      "nome": "Playlist: 90s Pop",
-      "artista": "Various Artists",
-      "faixas": 20,
-      "dataLancamento": "2008-04-28",
-      "preco": 10,
-      "genero": {
+      "name": "Playlist: 90s Pop",
+      "artist": "Various Artists",
+      "tracks": 20,
+      "dateRelease": "2008-04-28",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 26,
-      "nome": "Pop Evil",
-      "artista": "Pop Evil",
-      "faixas": 11,
-      "dataLancamento": "2018-02-16",
-      "preco": 10,
-      "genero": {
+      "name": "Pop Evil",
+      "artist": "Pop Evil",
+      "tracks": 11,
+      "dateRelease": "2018-02-16",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 27,
-      "nome": "'80s Pop #1's",
-      "artista": "Various Artists",
-      "faixas": 18,
-      "dataLancamento": "2007-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "'80s Pop #1's",
+      "artist": "Various Artists",
+      "tracks": 18,
+      "dateRelease": "2007-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 28,
-      "nome": "Música De Ninar: Pop Ao Estilo Bebê",
-      "artista": "Música Para Bebés Exigentes",
-      "faixas": 15,
-      "dataLancamento": "2017-12-01",
-      "preco": 10,
-      "genero": {
+      "name": "Música De Ninar: Pop Ao Estilo Bebê",
+      "artist": "Música Para Bebés Exigentes",
+      "tracks": 15,
+      "dateRelease": "2017-12-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 29,
-      "nome": "Total Pop! - The First 40 Hits (Remastered)",
-      "artista": "Erasure",
-      "faixas": 44,
-      "dataLancamento": "1992-11-16",
-      "preco": 10,
-      "genero": {
+      "name": "Total Pop! - The First 40 Hits (Remastered)",
+      "artist": "Erasure",
+      "tracks": 44,
+      "dateRelease": "1992-11-16",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 30,
-      "nome": "Brick By Brick",
-      "artista": "Iggy Pop",
-      "faixas": 14,
-      "dataLancamento": "1990-06-01",
-      "preco": 10,
-      "genero": {
+      "name": "Brick By Brick",
+      "artist": "Iggy Pop",
+      "tracks": 14,
+      "dateRelease": "1990-06-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 31,
-      "nome": "I Love It",
-      "artista": "Icona Pop",
-      "faixas": 1,
-      "dataLancamento": "2012-06-19",
-      "preco": 10,
-      "genero": {
+      "name": "I Love It",
+      "artist": "Icona Pop",
+      "tracks": 1,
+      "dateRelease": "2012-06-19",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 32,
-      "nome": "Punk Goes Pop, Vol. 6",
-      "artista": "Various Artists",
-      "faixas": 15,
-      "dataLancamento": "2014-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Punk Goes Pop, Vol. 6",
+      "artist": "Various Artists",
+      "tracks": 15,
+      "dateRelease": "2014-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 33,
-      "nome": "Tudo Por Um Pop Star (Trilha Sonora Do Filme)",
-      "artista": "Tudo por um Popstar",
-      "faixas": 13,
-      "dataLancamento": "2018-09-14",
-      "preco": 10,
-      "genero": {
+      "name": "Tudo Por Um Pop Star (Trilha Sonora Do Filme)",
+      "artist": "Tudo por um Popstar",
+      "tracks": 13,
+      "dateRelease": "2018-09-14",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 34,
-      "nome": "Give Me My Soda Pop",
-      "artista": "Ghost Powers",
-      "faixas": 1,
-      "dataLancamento": "2019-03-01",
-      "preco": 10,
-      "genero": {
+      "name": "Give Me My Soda Pop",
+      "artist": "Ghost Powers",
+      "tracks": 1,
+      "dateRelease": "2019-03-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 35,
-      "nome": "Punk Goes Pop, Vol. 5",
-      "artista": "Various Artists",
-      "faixas": 13,
-      "dataLancamento": "2012-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Punk Goes Pop, Vol. 5",
+      "artist": "Various Artists",
+      "tracks": 13,
+      "dateRelease": "2012-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 36,
-      "nome": "Punk Goes Pop, Vol. 7",
-      "artista": "Various Artists",
-      "faixas": 13,
-      "dataLancamento": "2017-07-14",
-      "preco": 10,
-      "genero": {
+      "name": "Punk Goes Pop, Vol. 7",
+      "artist": "Various Artists",
+      "tracks": 13,
+      "dateRelease": "2017-07-14",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 37,
-      "nome": "THIS IS... ICONA POP",
-      "artista": "Icona Pop",
-      "faixas": 11,
-      "dataLancamento": "2013-08-27",
-      "preco": 10,
-      "genero": {
+      "name": "THIS IS... ICONA POP",
+      "artist": "Icona Pop",
+      "tracks": 11,
+      "dateRelease": "2013-08-27",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 38,
-      "nome": "Punk Goes Pop, Vol. 4",
-      "artista": "Various Artists",
-      "faixas": 13,
-      "dataLancamento": "2011-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Punk Goes Pop, Vol. 4",
+      "artist": "Various Artists",
+      "tracks": 13,
+      "dateRelease": "2011-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 39,
-      "nome": "Arena Pop 2015, Vol. 2",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2015-04-20",
-      "preco": 10,
-      "genero": {
+      "name": "Arena Pop 2015, Vol. 2",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2015-04-20",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 40,
-      "nome": "Brazilian Sertanejo - Country To Pop Music",
-      "artista": "Various Artists",
-      "faixas": 31,
-      "dataLancamento": "2015-11-27",
-      "preco": 10,
-      "genero": {
+      "name": "Brazilian Sertanejo - Country To Pop Music",
+      "artist": "Various Artists",
+      "tracks": 31,
+      "dateRelease": "2015-11-27",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 41,
-      "nome": "Pop Instrumental Covers",
-      "artista": "Música Instrumental de I’m In Records",
-      "faixas": 10,
-      "dataLancamento": "2018-10-25",
-      "preco": 10,
-      "genero": {
+      "name": "Pop Instrumental Covers",
+      "artist": "Música Instrumental de I’m In Records",
+      "tracks": 10,
+      "dateRelease": "2018-10-25",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 42,
-      "nome": "Pop Brasil",
-      "artista": "Lulu Santos",
-      "faixas": 14,
-      "dataLancamento": "1983-10-20",
-      "preco": 10,
-      "genero": {
+      "name": "Pop Brasil",
+      "artist": "Lulu Santos",
+      "tracks": 14,
+      "dateRelease": "1983-10-20",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 43,
-      "nome": "Pop Life",
-      "artista": "David Guetta",
-      "faixas": 13,
-      "dataLancamento": "2007-06-15",
-      "preco": 10,
-      "genero": {
+      "name": "Pop Life",
+      "artist": "David Guetta",
+      "tracks": 13,
+      "dateRelease": "2007-06-15",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 44,
-      "nome": "This Is How We Party (with Icona Pop)",
-      "artista": "R3HAB",
-      "faixas": 1,
-      "dataLancamento": "2019-02-08",
-      "preco": 10,
-      "genero": {
+      "name": "This Is How We Party (with Icona Pop)",
+      "artist": "R3HAB",
+      "tracks": 1,
+      "dateRelease": "2019-02-08",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 45,
-      "nome": "As Melhores Músicas Eletrônicas Internacionais: Novas Mais Tocadas de Electrônica Internacional, Pop e Dance Atuais",
-      "artista": "Various Artists",
-      "faixas": 20,
-      "dataLancamento": "2015-08-20",
-      "preco": 10,
-      "genero": {
+      "name": "As Melhores Músicas Eletrônicas Internacionais: Novas Mais Tocadas de Electrônica Internacional, Pop e Dance Atuais",
+      "artist": "Various Artists",
+      "tracks": 20,
+      "dateRelease": "2015-08-20",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 46,
-      "nome": "iCollection Pop Brasil",
-      "artista": "Various Artists",
-      "faixas": 15,
-      "dataLancamento": "2016-07-29",
-      "preco": 10,
-      "genero": {
+      "name": "iCollection Pop Brasil",
+      "artist": "Various Artists",
+      "tracks": 15,
+      "dateRelease": "2016-07-29",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 47,
-      "nome": "Punk Goes Pop, Vol. 2",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2009-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Punk Goes Pop, Vol. 2",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2009-01-01",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 48,
-      "nome": "Swinging Pop Hits",
-      "artista": "Richard Clayderman",
-      "faixas": 30,
-      "dataLancamento": "2017-10-13",
-      "preco": 10,
-      "genero": {
+      "name": "Swinging Pop Hits",
+      "artist": "Richard Clayderman",
+      "tracks": 30,
+      "dateRelease": "2017-10-13",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 49,
-      "nome": "Baladas Pop Para Bebés",
-      "artista": "Música Para Bebés Exigentes de I’m In Records",
-      "faixas": 15,
-      "dataLancamento": "2017-02-10",
-      "preco": 10,
-      "genero": {
+      "name": "Baladas Pop Para Bebés",
+      "artist": "Música Para Bebés Exigentes de I’m In Records",
+      "tracks": 15,
+      "dateRelease": "2017-02-10",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 50,
-      "nome": "UP",
-      "artista": "Pop Evil",
-      "faixas": 13,
-      "dataLancamento": "2015-08-21",
-      "preco": 10,
-      "genero": {
+      "name": "UP",
+      "artist": "Pop Evil",
+      "tracks": 13,
+      "dateRelease": "2015-08-21",
+      "price": 10,
+      "genre": {
         "id": 1,
-        "descricao": "POP"
+        "description": "POP"
       }
     },
     {
       "id": 51,
-      "nome": "Rock",
-      "artista": "Raul Seixas",
-      "faixas": 14,
-      "dataLancamento": "1985-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Rock",
+      "artist": "Raul Seixas",
+      "tracks": 14,
+      "dateRelease": "1985-01-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 52,
-      "nome": "Combat Rock",
-      "artista": "The Clash",
-      "faixas": 12,
-      "dataLancamento": "1982",
-      "preco": 10,
-      "genero": {
+      "name": "Combat Rock",
+      "artist": "The Clash",
+      "tracks": 12,
+      "dateRelease": "1982",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 53,
-      "nome": "Frejat Ao Vivo No Rock In Rio",
-      "artista": "Frejat",
-      "faixas": 11,
-      "dataLancamento": "2012-07-10",
-      "preco": 10,
-      "genero": {
+      "name": "Frejat Ao Vivo No Rock In Rio",
+      "artist": "Frejat",
+      "tracks": 11,
+      "dateRelease": "2012-07-10",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 54,
-      "nome": "100 Rock",
-      "artista": "Various Artists",
-      "faixas": 100,
-      "dataLancamento": "2011-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "100 Rock",
+      "artist": "Various Artists",
+      "tracks": 100,
+      "dateRelease": "2011-01-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 55,
-      "nome": "Dutty Rock",
-      "artista": "Sean Paul",
-      "faixas": 20,
-      "dataLancamento": "2002-11-12",
-      "preco": 10,
-      "genero": {
+      "name": "Dutty Rock",
+      "artist": "Sean Paul",
+      "tracks": 20,
+      "dateRelease": "2002-11-12",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 56,
-      "nome": "Rock N' Roll",
-      "artista": "Dfideliz",
-      "faixas": 1,
-      "dataLancamento": "2018-12-14",
-      "preco": 10,
-      "genero": {
+      "name": "Rock N' Roll",
+      "artist": "Dfideliz",
+      "tracks": 1,
+      "dateRelease": "2018-12-14",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 57,
-      "nome": "Save Rock And Roll",
-      "artista": "Fall Out Boy",
-      "faixas": 11,
-      "dataLancamento": "2013-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Save Rock And Roll",
+      "artist": "Fall Out Boy",
+      "tracks": 11,
+      "dateRelease": "2013-01-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 58,
-      "nome": "Rock in Rio 2011 - Skank",
-      "artista": "Skank",
-      "faixas": 13,
-      "dataLancamento": "2012-07-15",
-      "preco": 10,
-      "genero": {
+      "name": "Rock in Rio 2011 - Skank",
+      "artist": "Skank",
+      "tracks": 13,
+      "dateRelease": "2012-07-15",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 59,
-      "nome": "Rock or Bust",
-      "artista": "AC/DC",
-      "faixas": 11,
-      "dataLancamento": "2014-11-28",
-      "preco": 10,
-      "genero": {
+      "name": "Rock or Bust",
+      "artist": "AC/DC",
+      "tracks": 11,
+      "dateRelease": "2014-11-28",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 60,
-      "nome": "Rock In Rio 30 Anos, Vol. 1",
-      "artista": "Various Artists",
-      "faixas": 15,
-      "dataLancamento": "2015-09-11",
-      "preco": 10,
-      "genero": {
+      "name": "Rock In Rio 30 Anos, Vol. 1",
+      "artist": "Various Artists",
+      "tracks": 15,
+      "dateRelease": "2015-09-11",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 61,
-      "nome": "Camp Rock 2: The Final Jam",
-      "artista": "Cast Of 'Camp Rock 2'",
-      "faixas": 15,
-      "dataLancamento": "2010-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Camp Rock 2: The Final Jam",
+      "artist": "Cast Of 'Camp Rock 2'",
+      "tracks": 15,
+      "dateRelease": "2010-01-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 62,
-      "nome": "Rock Of The Westies",
-      "artista": "Elton John",
-      "faixas": 10,
-      "dataLancamento": "1975-10-24",
-      "preco": 10,
-      "genero": {
+      "name": "Rock Of The Westies",
+      "artist": "Elton John",
+      "tracks": 10,
+      "dateRelease": "1975-10-24",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 63,
-      "nome": "That's My Way (Alok Remix)",
-      "artista": "Edi Rock",
-      "faixas": 1,
-      "dataLancamento": "2016-09-16",
-      "preco": 10,
-      "genero": {
+      "name": "That's My Way (Alok Remix)",
+      "artist": "Edi Rock",
+      "tracks": 1,
+      "dateRelease": "2016-09-16",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 64,
-      "nome": "Contra Nós Ninguém Será",
-      "artista": "Edi Rock",
-      "faixas": 23,
-      "dataLancamento": "2013-06-04",
-      "preco": 10,
-      "genero": {
+      "name": "Contra Nós Ninguém Será",
+      "artist": "Edi Rock",
+      "tracks": 23,
+      "dateRelease": "2013-06-04",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 65,
-      "nome": "Queen Rock Montreal",
-      "artista": "Queen",
-      "faixas": 27,
-      "dataLancamento": "2007-10-29",
-      "preco": 10,
-      "genero": {
+      "name": "Queen Rock Montreal",
+      "artist": "Queen",
+      "tracks": 27,
+      "dateRelease": "2007-10-29",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 66,
-      "nome": "Let There Be Rock",
-      "artista": "AC/DC",
-      "faixas": 8,
-      "dataLancamento": "1977-03-21",
-      "preco": 10,
-      "genero": {
+      "name": "Let There Be Rock",
+      "artist": "AC/DC",
+      "tracks": 8,
+      "dateRelease": "1977-03-21",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 67,
-      "nome": "The Best of The '68 Comeback Special",
-      "artista": "Elvis Presley",
-      "faixas": 19,
-      "dataLancamento": "2019-02-15",
-      "preco": 10,
-      "genero": {
+      "name": "The Best of The '68 Comeback Special",
+      "artist": "Elvis Presley",
+      "tracks": 19,
+      "dateRelease": "2019-02-15",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 68,
-      "nome": "Rock 'n' Roll",
-      "artista": "Nando Reis",
-      "faixas": 1,
-      "dataLancamento": "2018-09-25",
-      "preco": 10,
-      "genero": {
+      "name": "Rock 'n' Roll",
+      "artist": "Nando Reis",
+      "tracks": 1,
+      "dateRelease": "2018-09-25",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 69,
-      "nome": "Samba Rock Vol.1",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2007-10-01",
-      "preco": 10,
-      "genero": {
+      "name": "Samba Rock Vol.1",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2007-10-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 70,
-      "nome": "Ao Vivo no Rock In Rio",
-      "artista": "CPM 22",
-      "faixas": 16,
-      "dataLancamento": "2016-11-04",
-      "preco": 10,
-      "genero": {
+      "name": "Ao Vivo no Rock In Rio",
+      "artist": "CPM 22",
+      "tracks": 16,
+      "dateRelease": "2016-11-04",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 71,
-      "nome": "Elvis' Golden Records",
-      "artista": "Elvis Presley",
-      "faixas": 14,
-      "dataLancamento": "1958-03-21",
-      "preco": 10,
-      "genero": {
+      "name": "Elvis' Golden Records",
+      "artist": "Elvis Presley",
+      "tracks": 14,
+      "dateRelease": "1958-03-21",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 72,
-      "nome": "Rock In Rio [Live]",
-      "artista": "Iron Maiden",
-      "faixas": 19,
-      "dataLancamento": "2002-03-20",
-      "preco": 10,
-      "genero": {
+      "name": "Rock In Rio [Live]",
+      "artist": "Iron Maiden",
+      "tracks": 19,
+      "dateRelease": "2002-03-20",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 73,
-      "nome": "Coleção Ouça, Toque E Cante - Rock",
-      "artista": "Various Artists",
-      "faixas": 8,
-      "dataLancamento": "2006-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Coleção Ouça, Toque E Cante - Rock",
+      "artist": "Various Artists",
+      "tracks": 8,
+      "dateRelease": "2006-01-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 74,
-      "nome": "Lovers Rock",
-      "artista": "Sade",
-      "faixas": 11,
-      "dataLancamento": "2000-11-07",
-      "preco": 10,
-      "genero": {
+      "name": "Lovers Rock",
+      "artist": "Sade",
+      "tracks": 11,
+      "dateRelease": "2000-11-07",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 75,
-      "nome": "Blue Hawaii",
-      "artista": "Elvis Presley",
-      "faixas": 14,
-      "dataLancamento": "1961-10-20",
-      "preco": 10,
-      "genero": {
+      "name": "Blue Hawaii",
+      "artist": "Elvis Presley",
+      "tracks": 14,
+      "dateRelease": "1961-10-20",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 76,
-      "nome": "Marina Rock Lima",
-      "artista": "Marina Lima",
-      "faixas": 14,
-      "dataLancamento": "2001-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Marina Rock Lima",
+      "artist": "Marina Lima",
+      "tracks": 14,
+      "dateRelease": "2001-01-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 77,
-      "nome": "Rock Para Bebés",
-      "artista": "Música Para Bebés Exigentes de I’m In Records",
-      "faixas": 18,
-      "dataLancamento": "2017-02-10",
-      "preco": 10,
-      "genero": {
+      "name": "Rock Para Bebés",
+      "artist": "Música Para Bebés Exigentes de I’m In Records",
+      "tracks": 18,
+      "dateRelease": "2017-02-10",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 78,
-      "nome": "Doze Flores Amarelas - A Ópera Rock",
-      "artista": "Titãs",
-      "faixas": 29,
-      "dataLancamento": "2018-05-25",
-      "preco": 10,
-      "genero": {
+      "name": "Doze Flores Amarelas - A Ópera Rock",
+      "artist": "Titãs",
+      "tracks": 29,
+      "dateRelease": "2018-05-25",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 79,
-      "nome": "Rock In Rio (Ao Vivo)",
-      "artista": "Martinho Da Vila",
-      "faixas": 12,
-      "dataLancamento": "2013-08-07",
-      "preco": 10,
-      "genero": {
+      "name": "Rock In Rio (Ao Vivo)",
+      "artist": "Martinho Da Vila",
+      "tracks": 12,
+      "dateRelease": "2013-08-07",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 80,
-      "nome": "Elvis 30 #1 Hits",
-      "artista": "Elvis Presley",
-      "faixas": 31,
-      "dataLancamento": "2002-09-24",
-      "preco": 10,
-      "genero": {
+      "name": "Elvis 30 #1 Hits",
+      "artist": "Elvis Presley",
+      "tracks": 31,
+      "dateRelease": "2002-09-24",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 81,
-      "nome": "From Elvis in Memphis",
-      "artista": "Elvis Presley",
-      "faixas": 16,
-      "dataLancamento": "1969-06-17",
-      "preco": 10,
-      "genero": {
+      "name": "From Elvis in Memphis",
+      "artist": "Elvis Presley",
+      "tracks": 16,
+      "dateRelease": "1969-06-17",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 82,
-      "nome": "I Love Rock 'N' Roll (Expanded Edition)",
-      "artista": "Joan Jett & The Blackhearts",
-      "faixas": 15,
-      "dataLancamento": "1981-11-18",
-      "preco": 10,
-      "genero": {
+      "name": "I Love Rock 'N' Roll (Expanded Edition)",
+      "artist": "Joan Jett & The Blackhearts",
+      "tracks": 15,
+      "dateRelease": "1981-11-18",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 83,
-      "nome": "Ira! e Ultraje a Rigor ao Vivo no Rock in Rio",
-      "artista": "Ira! e Ultraje a Rigor",
-      "faixas": 13,
-      "dataLancamento": "2011-05-15",
-      "preco": 10,
-      "genero": {
+      "name": "Ira! e Ultraje a Rigor ao Vivo no Rock in Rio",
+      "artist": "Ira! e Ultraje a Rigor",
+      "tracks": 13,
+      "dateRelease": "2011-05-15",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 84,
-      "nome": "Rock 'N' Roll",
-      "artista": "John Lennon",
-      "faixas": 13,
-      "dataLancamento": "1975-02-17",
-      "preco": 10,
-      "genero": {
+      "name": "Rock 'N' Roll",
+      "artist": "John Lennon",
+      "tracks": 13,
+      "dateRelease": "1975-02-17",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 85,
-      "nome": "King's Dead (with Kendrick Lamar, Future & James Blake)",
-      "artista": "Jay Rock",
-      "faixas": 1,
-      "dataLancamento": "2018-01-12",
-      "preco": 10,
-      "genero": {
+      "name": "King's Dead (with Kendrick Lamar, Future & James Blake)",
+      "artist": "Jay Rock",
+      "tracks": 1,
+      "dateRelease": "2018-01-12",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 86,
-      "nome": "Para Sempre - Pop Rock",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2001-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Para Sempre - Pop Rock",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2001-01-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 87,
-      "nome": "Punk Rock Até Os Ossos",
-      "artista": "Tequila Baby",
-      "faixas": 14,
-      "dataLancamento": "2015-01-26",
-      "preco": 10,
-      "genero": {
+      "name": "Punk Rock Até Os Ossos",
+      "artist": "Tequila Baby",
+      "tracks": 14,
+      "dateRelease": "2015-01-26",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 88,
-      "nome": "Swing & Samba Rock",
-      "artista": "Clube Do Balanço",
-      "faixas": 13,
-      "dataLancamento": "2001",
-      "preco": 10,
-      "genero": {
+      "name": "Swing & Samba Rock",
+      "artist": "Clube Do Balanço",
+      "tracks": 13,
+      "dateRelease": "2001",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 89,
-      "nome": "Still The Same... Great Rock Classics Of Our Time",
-      "artista": "Rod Stewart",
-      "faixas": 13,
-      "dataLancamento": "2006-10-09",
-      "preco": 10,
-      "genero": {
+      "name": "Still The Same... Great Rock Classics Of Our Time",
+      "artist": "Rod Stewart",
+      "tracks": 13,
+      "dateRelease": "2006-10-09",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 90,
-      "nome": "Rock Popular Brasileiro",
-      "artista": "Paulo Ricardo",
-      "faixas": 13,
-      "dataLancamento": "2016-08-26",
-      "preco": 10,
-      "genero": {
+      "name": "Rock Popular Brasileiro",
+      "artist": "Paulo Ricardo",
+      "tracks": 13,
+      "dateRelease": "2016-08-26",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 91,
-      "nome": "Rock in Rio 2011 - Capital Inicial",
-      "artista": "Capital Inicial",
-      "faixas": 13,
-      "dataLancamento": "2012-07-24",
-      "preco": 10,
-      "genero": {
+      "name": "Rock in Rio 2011 - Capital Inicial",
+      "artist": "Capital Inicial",
+      "tracks": 13,
+      "dateRelease": "2012-07-24",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 92,
-      "nome": "Miami Rock 2000",
-      "artista": "Defalla",
-      "faixas": 12,
-      "dataLancamento": "2000",
-      "preco": 10,
-      "genero": {
+      "name": "Miami Rock 2000",
+      "artist": "Defalla",
+      "tracks": 12,
+      "dateRelease": "2000",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 93,
-      "nome": "Rock the Place",
-      "artista": "Evokings",
-      "faixas": 1,
-      "dataLancamento": "2018-09-21",
-      "preco": 10,
-      "genero": {
+      "name": "Rock the Place",
+      "artist": "Evokings",
+      "tracks": 1,
+      "dateRelease": "2018-09-21",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 94,
-      "nome": "Música de Ninar: Rock ao Estilo Bebê",
-      "artista": "Música Para Bebés Exigentes",
-      "faixas": 15,
-      "dataLancamento": "2017-12-01",
-      "preco": 10,
-      "genero": {
+      "name": "Música de Ninar: Rock ao Estilo Bebê",
+      "artist": "Música Para Bebés Exigentes",
+      "tracks": 15,
+      "dateRelease": "2017-12-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 95,
-      "nome": "Redemption",
-      "artista": "Jay Rock",
-      "faixas": 15,
-      "dataLancamento": "2018-06-15",
-      "preco": 10,
-      "genero": {
+      "name": "Redemption",
+      "artist": "Jay Rock",
+      "tracks": 15,
+      "dateRelease": "2018-06-15",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 96,
-      "nome": "Eye Of The Storm",
-      "artista": "ONE OK ROCK",
-      "faixas": 13,
-      "dataLancamento": "2019-02-15",
-      "preco": 10,
-      "genero": {
+      "name": "Eye Of The Storm",
+      "artist": "ONE OK ROCK",
+      "tracks": 13,
+      "dateRelease": "2019-02-15",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 97,
-      "nome": "Rock N' Roll Legends",
-      "artista": "The Righteous Brothers",
-      "faixas": 20,
-      "dataLancamento": "2008-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Rock N' Roll Legends",
+      "artist": "The Righteous Brothers",
+      "tracks": 20,
+      "dateRelease": "2008-01-01",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 98,
-      "nome": "Elvis (Fool)",
-      "artista": "Elvis Presley",
-      "faixas": 16,
-      "dataLancamento": "1973-07-16",
-      "preco": 10,
-      "genero": {
+      "name": "Elvis (Fool)",
+      "artist": "Elvis Presley",
+      "tracks": 16,
+      "dateRelease": "1973-07-16",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 99,
-      "nome": "Rock Estrela - Edição Comentada",
-      "artista": "Leo Jaime",
-      "faixas": 16,
-      "dataLancamento": "2004-10-22",
-      "preco": 10,
-      "genero": {
+      "name": "Rock Estrela - Edição Comentada",
+      "artist": "Leo Jaime",
+      "tracks": 16,
+      "dateRelease": "2004-10-22",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 100,
-      "nome": "Baladas Rock Para Bebés",
-      "artista": "Música Para Bebés Exigentes de I’m In Records",
-      "faixas": 15,
-      "dataLancamento": "2017-02-10",
-      "preco": 10,
-      "genero": {
+      "name": "Baladas Rock Para Bebés",
+      "artist": "Música Para Bebés Exigentes de I’m In Records",
+      "tracks": 15,
+      "dateRelease": "2017-02-10",
+      "price": 10,
+      "genre": {
         "id": 4,
-        "descricao": "ROCK"
+        "description": "ROCK"
       }
     },
     {
       "id": 101,
-      "nome": "Mestres da MPB 2",
-      "artista": "Jorge Ben Jor",
-      "faixas": 13,
-      "dataLancamento": "1993-06-08",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB 2",
+      "artist": "Jorge Ben Jor",
+      "tracks": 13,
+      "dateRelease": "1993-06-08",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 102,
-      "nome": "I Love MPB - O Nosso Amor A Gente Inventa",
-      "artista": "Cazuza",
-      "faixas": 14,
-      "dataLancamento": "2004-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "I Love MPB - O Nosso Amor A Gente Inventa",
+      "artist": "Cazuza",
+      "tracks": 14,
+      "dateRelease": "2004-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 103,
-      "nome": "Mpb em Cena (Ao Vivo)",
-      "artista": "Various Artists",
-      "faixas": 18,
-      "dataLancamento": "2017-03-31",
-      "preco": 10,
-      "genero": {
+      "name": "Mpb em Cena (Ao Vivo)",
+      "artist": "Various Artists",
+      "tracks": 18,
+      "dateRelease": "2017-03-31",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 104,
-      "nome": "Brasil MPB",
-      "artista": "Nana Caymmi",
-      "faixas": 11,
-      "dataLancamento": "1995",
-      "preco": 10,
-      "genero": {
+      "name": "Brasil MPB",
+      "artist": "Nana Caymmi",
+      "tracks": 11,
+      "dateRelease": "1995",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 105,
-      "nome": "MPB Acústico",
-      "artista": "Various Artists",
-      "faixas": 7,
-      "dataLancamento": "2011-04-20",
-      "preco": 10,
-      "genero": {
+      "name": "MPB Acústico",
+      "artist": "Various Artists",
+      "tracks": 7,
+      "dateRelease": "2011-04-20",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 106,
-      "nome": "MPB Reggae",
-      "artista": "Samuel Lila",
-      "faixas": 13,
-      "dataLancamento": "2004-05-21",
-      "preco": 10,
-      "genero": {
+      "name": "MPB Reggae",
+      "artist": "Samuel Lila",
+      "tracks": 13,
+      "dateRelease": "2004-05-21",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 107,
-      "nome": "Brasil Encanta - Mpb",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2016-04-08",
-      "preco": 10,
-      "genero": {
+      "name": "Brasil Encanta - Mpb",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2016-04-08",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 108,
-      "nome": "20 Grandes Sucessos De Quarteto Em Cy & Mpb-4",
-      "artista": "MPB4",
-      "faixas": 20,
-      "dataLancamento": "1998-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "20 Grandes Sucessos De Quarteto Em Cy & Mpb-4",
+      "artist": "MPB4",
+      "tracks": 20,
+      "dateRelease": "1998-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 109,
-      "nome": "Com Passo De MPB",
-      "artista": "Zeca Pagodinho",
-      "faixas": 18,
-      "dataLancamento": "2014-09-25",
-      "preco": 10,
-      "genero": {
+      "name": "Com Passo De MPB",
+      "artist": "Zeca Pagodinho",
+      "tracks": 18,
+      "dateRelease": "2014-09-25",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 110,
-      "nome": "Mestres da Mpb 2",
-      "artista": "Gilberto Gil",
-      "faixas": 15,
-      "dataLancamento": "1982-08-09",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da Mpb 2",
+      "artist": "Gilberto Gil",
+      "tracks": 15,
+      "dateRelease": "1982-08-09",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 111,
-      "nome": "Cicatrizes",
-      "artista": "MPB4",
-      "faixas": 13,
-      "dataLancamento": "1972-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Cicatrizes",
+      "artist": "MPB4",
+      "tracks": 13,
+      "dateRelease": "1972-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 112,
-      "nome": "Mpb Pras Crianças",
-      "artista": "Banda De Boca",
-      "faixas": 13,
-      "dataLancamento": "2008-11-17",
-      "preco": 10,
-      "genero": {
+      "name": "Mpb Pras Crianças",
+      "artist": "Banda De Boca",
+      "tracks": 13,
+      "dateRelease": "2008-11-17",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 113,
-      "nome": "MPB Instrumental, Vol. 2",
-      "artista": "Noúres",
-      "faixas": 12,
-      "dataLancamento": "2015-07-11",
-      "preco": 10,
-      "genero": {
+      "name": "MPB Instrumental, Vol. 2",
+      "artist": "Noúres",
+      "tracks": 12,
+      "dateRelease": "2015-07-11",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 114,
-      "nome": "MPB-4",
-      "artista": "MPB4",
-      "faixas": 17,
-      "dataLancamento": "2018-10-22",
-      "preco": 10,
-      "genero": {
+      "name": "MPB-4",
+      "artist": "MPB4",
+      "tracks": 17,
+      "dateRelease": "2018-10-22",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 115,
-      "nome": "MPB Instrumental, Vol. 1",
-      "artista": "Noúres",
-      "faixas": 12,
-      "dataLancamento": "2015-07-11",
-      "preco": 10,
-      "genero": {
+      "name": "MPB Instrumental, Vol. 1",
+      "artist": "Noúres",
+      "tracks": 12,
+      "dateRelease": "2015-07-11",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 116,
-      "nome": "MPB Instrumental, Vol. 3",
-      "artista": "Noúres",
-      "faixas": 12,
-      "dataLancamento": "2015-07-11",
-      "preco": 10,
-      "genero": {
+      "name": "MPB Instrumental, Vol. 3",
+      "artist": "Noúres",
+      "tracks": 12,
+      "dateRelease": "2015-07-11",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 117,
-      "nome": "40 anos de música (ao vivo)",
-      "artista": "Toquinho",
-      "faixas": 17,
-      "dataLancamento": "2012-09-01",
-      "preco": 10,
-      "genero": {
+      "name": "40 anos de música (ao vivo)",
+      "artist": "Toquinho",
+      "tracks": 17,
+      "dateRelease": "2012-09-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 118,
-      "nome": "MPB Acústico",
-      "artista": "Various Artists",
-      "faixas": 13,
-      "dataLancamento": "2014-08-04",
-      "preco": 10,
-      "genero": {
+      "name": "MPB Acústico",
+      "artist": "Various Artists",
+      "tracks": 13,
+      "dateRelease": "2014-08-04",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 119,
-      "nome": "Mestres da MPB",
-      "artista": "D. Yvonne Lara",
-      "faixas": 18,
-      "dataLancamento": "1992-11-20",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB",
+      "artist": "D. Yvonne Lara",
+      "tracks": 18,
+      "dateRelease": "1992-11-20",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 120,
-      "nome": "Grandes mestres da MPB",
-      "artista": "Jorge Ben Jor",
-      "faixas": 13,
-      "dataLancamento": "1993-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Grandes mestres da MPB",
+      "artist": "Jorge Ben Jor",
+      "tracks": 13,
+      "dateRelease": "1993-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 121,
-      "nome": "O Sonho, a Vida, a Roda Viva! 50 Anos (Ao Vivo)",
-      "artista": "MPB4",
-      "faixas": 14,
-      "dataLancamento": "2017-11-10",
-      "preco": 10,
-      "genero": {
+      "name": "O Sonho, a Vida, a Roda Viva! 50 Anos (Ao Vivo)",
+      "artist": "MPB4",
+      "tracks": 14,
+      "dateRelease": "2017-11-10",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 122,
-      "nome": "The Best of Brazilian MPB",
-      "artista": "Various Artists",
-      "faixas": 32,
-      "dataLancamento": "2016-11-17",
-      "preco": 10,
-      "genero": {
+      "name": "The Best of Brazilian MPB",
+      "artist": "Various Artists",
+      "tracks": 32,
+      "dateRelease": "2016-11-17",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 123,
-      "nome": "Acústico MPB",
-      "artista": "Various Artists",
-      "faixas": 24,
-      "dataLancamento": "2019-03-01",
-      "preco": 10,
-      "genero": {
+      "name": "Acústico MPB",
+      "artist": "Various Artists",
+      "tracks": 24,
+      "dateRelease": "2019-03-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 124,
-      "nome": "Vozes Do Magro",
-      "artista": "MPB4",
-      "faixas": 16,
-      "dataLancamento": "2015-01-10",
-      "preco": 10,
-      "genero": {
+      "name": "Vozes Do Magro",
+      "artist": "MPB4",
+      "tracks": 16,
+      "dateRelease": "2015-01-10",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 125,
-      "nome": "10 Anos Depois",
-      "artista": "MPB4",
-      "faixas": 12,
-      "dataLancamento": "2016-04-29",
-      "preco": 10,
-      "genero": {
+      "name": "10 Anos Depois",
+      "artist": "MPB4",
+      "tracks": 12,
+      "dateRelease": "2016-04-29",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 126,
-      "nome": "I Love MPB - Pra Gente Se Amar",
-      "artista": "Zeca Pagodinho",
-      "faixas": 14,
-      "dataLancamento": "2004-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "I Love MPB - Pra Gente Se Amar",
+      "artist": "Zeca Pagodinho",
+      "tracks": 14,
+      "dateRelease": "2004-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 127,
-      "nome": "Brazil - Mpb And Bossa Nova",
-      "artista": "Various Artists",
-      "faixas": 31,
-      "dataLancamento": "2015-11-27",
-      "preco": 10,
-      "genero": {
+      "name": "Brazil - Mpb And Bossa Nova",
+      "artist": "Various Artists",
+      "tracks": 31,
+      "dateRelease": "2015-11-27",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 128,
-      "nome": "O Carnaval Pra Valer da MPB",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2005-01-19",
-      "preco": 10,
-      "genero": {
+      "name": "O Carnaval Pra Valer da MPB",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2005-01-19",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 129,
-      "nome": "Mestres da MPB - Nora Ney",
-      "artista": "Nora Ney",
-      "faixas": 19,
-      "dataLancamento": "1994-07-20",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB - Nora Ney",
+      "artist": "Nora Ney",
+      "tracks": 19,
+      "dateRelease": "1994-07-20",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 130,
-      "nome": "A um passo da MPB",
-      "artista": "Falcão",
-      "faixas": 12,
-      "dataLancamento": "1997",
-      "preco": 10,
-      "genero": {
+      "name": "A um passo da MPB",
+      "artist": "Falcão",
+      "tracks": 12,
+      "dateRelease": "1997",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 131,
-      "nome": "MPB em Cy",
-      "artista": "Quarteto Em Cy",
-      "faixas": 17,
-      "dataLancamento": "2018-10-22",
-      "preco": 10,
-      "genero": {
+      "name": "MPB em Cy",
+      "artist": "Quarteto Em Cy",
+      "tracks": 17,
+      "dateRelease": "2018-10-22",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 132,
-      "nome": "Mestres da MPB",
-      "artista": "Jamelão",
-      "faixas": 17,
-      "dataLancamento": "1994-02-07",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB",
+      "artist": "Jamelão",
+      "tracks": 17,
+      "dateRelease": "1994-02-07",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 133,
-      "nome": "Sambando Na Mpb - Grandes Nomes do Pagode Interpretando o Melhor da Mpb",
-      "artista": "Various Artists",
-      "faixas": 14,
-      "dataLancamento": "2008-05-06",
-      "preco": 10,
-      "genero": {
+      "name": "Sambando Na Mpb - Grandes Nomes do Pagode Interpretando o Melhor da Mpb",
+      "artist": "Various Artists",
+      "tracks": 14,
+      "dateRelease": "2008-05-06",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 134,
-      "nome": "Mestres da MPB",
-      "artista": "Conjunto Época de Ouro",
-      "faixas": 18,
-      "dataLancamento": "1995-04-02",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB",
+      "artist": "Conjunto Época de Ouro",
+      "tracks": 18,
+      "dateRelease": "1995-04-02",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 135,
-      "nome": "Clássicos na Voz do MPB4 (Ao Vivo)",
-      "artista": "MPB4",
-      "faixas": 15,
-      "dataLancamento": "2016-03-03",
-      "preco": 10,
-      "genero": {
+      "name": "Clássicos na Voz do MPB4 (Ao Vivo)",
+      "artist": "MPB4",
+      "tracks": 15,
+      "dateRelease": "2016-03-03",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 136,
-      "nome": "The Best of MPB",
-      "artista": "Various Artists",
-      "faixas": 25,
-      "dataLancamento": "2019-02-08",
-      "preco": 10,
-      "genero": {
+      "name": "The Best of MPB",
+      "artist": "Various Artists",
+      "tracks": 25,
+      "dateRelease": "2019-02-08",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 137,
-      "nome": "Mestres da MPB",
-      "artista": "Candeia",
-      "faixas": 9,
-      "dataLancamento": "1977-11-25",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB",
+      "artist": "Candeia",
+      "tracks": 9,
+      "dateRelease": "1977-11-25",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 138,
-      "nome": "Maxximum - Mpb",
-      "artista": "Various Artists",
-      "faixas": 16,
-      "dataLancamento": "2005-11-14",
-      "preco": 10,
-      "genero": {
+      "name": "Maxximum - Mpb",
+      "artist": "Various Artists",
+      "tracks": 16,
+      "dateRelease": "2005-11-14",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 139,
-      "nome": "Amigo É Pra Essas Coisas - Ao Vivo",
-      "artista": "MPB4",
-      "faixas": 10,
-      "dataLancamento": "1989-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Amigo É Pra Essas Coisas - Ao Vivo",
+      "artist": "MPB4",
+      "tracks": 10,
+      "dateRelease": "1989-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 140,
-      "nome": "Mpb Brazil: Brazil, Samba, Bossa Nova And Beyond / A Nova Canção Brasileira",
-      "artista": "Various Artists",
-      "faixas": 19,
-      "dataLancamento": "2015-06-11",
-      "preco": 10,
-      "genero": {
+      "name": "Mpb Brazil: Brazil, Samba, Bossa Nova And Beyond / A Nova Canção Brasileira",
+      "artist": "Various Artists",
+      "tracks": 19,
+      "dateRelease": "2015-06-11",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 141,
-      "nome": "Mestres da MPB",
-      "artista": "Dick Farney",
-      "faixas": 17,
-      "dataLancamento": "1994-02-28",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB",
+      "artist": "Dick Farney",
+      "tracks": 17,
+      "dateRelease": "1994-02-28",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 142,
-      "nome": "Vira Virou",
-      "artista": "MPB4",
-      "faixas": 11,
-      "dataLancamento": "2016-04-29",
-      "preco": 10,
-      "genero": {
+      "name": "Vira Virou",
+      "artist": "MPB4",
+      "tracks": 11,
+      "dateRelease": "2016-04-29",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 143,
-      "nome": "Deixa Estar",
-      "artista": "MPB4",
-      "faixas": 12,
-      "dataLancamento": "1970-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Deixa Estar",
+      "artist": "MPB4",
+      "tracks": 12,
+      "dateRelease": "1970-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 144,
-      "nome": "MPB4 & Quarteto Em Cy Sem Limite",
-      "artista": "MPB4",
-      "faixas": 29,
-      "dataLancamento": "2001-01-08",
-      "preco": 10,
-      "genero": {
+      "name": "MPB4 & Quarteto Em Cy Sem Limite",
+      "artist": "MPB4",
+      "tracks": 29,
+      "dateRelease": "2001-01-08",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 145,
-      "nome": "Mestres da Mpb",
-      "artista": "João Gilberto",
-      "faixas": 11,
-      "dataLancamento": "1992-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da Mpb",
+      "artist": "João Gilberto",
+      "tracks": 11,
+      "dateRelease": "1992-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 146,
-      "nome": "Mestres da MPB",
-      "artista": "Emilinha Borba",
-      "faixas": 20,
-      "dataLancamento": "1994-05-01",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB",
+      "artist": "Emilinha Borba",
+      "tracks": 20,
+      "dateRelease": "1994-05-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 147,
-      "nome": "Adivinha O Que É",
-      "artista": "MPB4",
-      "faixas": 12,
-      "dataLancamento": "1981-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Adivinha O Que É",
+      "artist": "MPB4",
+      "tracks": 12,
+      "dateRelease": "1981-01-01",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 148,
-      "nome": "Mestres da MPB",
-      "artista": "Carmélia Alves e Gordurinha",
-      "faixas": 20,
-      "dataLancamento": "1994-08-09",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB",
+      "artist": "Carmélia Alves e Gordurinha",
+      "tracks": 20,
+      "dateRelease": "1994-08-09",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 149,
-      "nome": "Mestres da MPB - Vol. 2",
-      "artista": "Jamelão",
-      "faixas": 17,
-      "dataLancamento": "1994-02-07",
-      "preco": 10,
-      "genero": {
+      "name": "Mestres da MPB - Vol. 2",
+      "artist": "Jamelão",
+      "tracks": 17,
+      "dateRelease": "1994-02-07",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 150,
-      "nome": "Canto Dos Homens",
-      "artista": "MPB4",
-      "faixas": 12,
-      "dataLancamento": "2016-04-29",
-      "preco": 10,
-      "genero": {
+      "name": "Canto Dos Homens",
+      "artist": "MPB4",
+      "tracks": 12,
+      "dateRelease": "2016-04-29",
+      "price": 10,
+      "genre": {
         "id": 2,
-        "descricao": "MPB"
+        "description": "MPB"
       }
     },
     {
       "id": 151,
-      "nome": "The New Classic (Deluxe Version)",
-      "artista": "Iggy Azalea",
-      "faixas": 15,
-      "dataLancamento": "2014-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "The New Classic (Deluxe Version)",
+      "artist": "Iggy Azalea",
+      "tracks": 15,
+      "dateRelease": "2014-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 152,
-      "nome": "Classic",
-      "artista": "MKTO",
-      "faixas": 1,
-      "dataLancamento": "2013-06-20",
-      "preco": 10,
-      "genero": {
+      "name": "Classic",
+      "artist": "MKTO",
+      "tracks": 1,
+      "dateRelease": "2013-06-20",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 153,
-      "nome": "The New Classic",
-      "artista": "Iggy Azalea",
-      "faixas": 12,
-      "dataLancamento": "2014-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "The New Classic",
+      "artist": "Iggy Azalea",
+      "tracks": 12,
+      "dateRelease": "2014-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 154,
-      "nome": "Classic Eric Clapton",
-      "artista": "Eric Clapton",
-      "faixas": 11,
-      "dataLancamento": "2005-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Eric Clapton",
+      "artist": "Eric Clapton",
+      "tracks": 11,
+      "dateRelease": "2005-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 155,
-      "nome": "Classic",
-      "artista": "Adrian Gurvitz",
-      "faixas": 9,
-      "dataLancamento": "1982",
-      "preco": 10,
-      "genero": {
+      "name": "Classic",
+      "artist": "Adrian Gurvitz",
+      "tracks": 9,
+      "dateRelease": "1982",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 156,
-      "nome": "Stone Cold Classic",
-      "artista": "AKA George",
-      "faixas": 1,
-      "dataLancamento": "2017-08-25",
-      "preco": 10,
-      "genero": {
+      "name": "Stone Cold Classic",
+      "artist": "AKA George",
+      "tracks": 1,
+      "dateRelease": "2017-08-25",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 157,
-      "nome": "Total Reggae: Classic Roots",
-      "artista": "Various Artists",
-      "faixas": 12,
-      "dataLancamento": "2009-05-01",
-      "preco": 10,
-      "genero": {
+      "name": "Total Reggae: Classic Roots",
+      "artist": "Various Artists",
+      "tracks": 12,
+      "dateRelease": "2009-05-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 158,
-      "nome": "Vintage Ibiza Classic Vol. 1",
-      "artista": "Sebastian Gamboa",
-      "faixas": 9,
-      "dataLancamento": "2013",
-      "preco": 10,
-      "genero": {
+      "name": "Vintage Ibiza Classic Vol. 1",
+      "artist": "Sebastian Gamboa",
+      "tracks": 9,
+      "dateRelease": "2013",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 159,
-      "nome": "Classic",
-      "artista": "Freedom Fry",
-      "faixas": 12,
-      "dataLancamento": "2018-06-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic",
+      "artist": "Freedom Fry",
+      "tracks": 12,
+      "dateRelease": "2018-06-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 160,
-      "nome": "Classic Soul",
-      "artista": "Various Artists",
-      "faixas": 39,
-      "dataLancamento": "2019-02-22",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Soul",
+      "artist": "Various Artists",
+      "tracks": 39,
+      "dateRelease": "2019-02-22",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 161,
-      "nome": "Classic Man",
-      "artista": "Jidenna",
-      "faixas": 1,
-      "dataLancamento": "2015-02-03",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Man",
+      "artist": "Jidenna",
+      "tracks": 1,
+      "dateRelease": "2015-02-03",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 162,
-      "nome": "40 Classic Video Game Songs",
-      "artista": "Video Game Players",
-      "faixas": 40,
-      "dataLancamento": "2015-01-17",
-      "preco": 10,
-      "genero": {
+      "name": "40 Classic Video Game Songs",
+      "artist": "Video Game Players",
+      "tracks": 40,
+      "dateRelease": "2015-01-17",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 163,
-      "nome": "Classic Experience IV",
-      "artista": "Various Artists",
-      "faixas": 33,
-      "dataLancamento": "1993",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Experience IV",
+      "artist": "Various Artists",
+      "tracks": 33,
+      "dateRelease": "1993",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 164,
-      "nome": "Classic Love Music",
-      "artista": "Maurizio Mastrini",
-      "faixas": 12,
-      "dataLancamento": "2001-11-23",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Love Music",
+      "artist": "Maurizio Mastrini",
+      "tracks": 12,
+      "dateRelease": "2001-11-23",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 165,
-      "nome": "Original Classic Recordings Vol. I",
-      "artista": "Jacob Do Bandolim",
-      "faixas": 21,
-      "dataLancamento": "1991-11-01",
-      "preco": 10,
-      "genero": {
+      "name": "Original Classic Recordings Vol. I",
+      "artist": "Jacob Do Bandolim",
+      "tracks": 21,
+      "dateRelease": "1991-11-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 166,
-      "nome": "Classic Sinatra - His Great Performances 1953-1960",
-      "artista": "Frank Sinatra",
-      "faixas": 20,
-      "dataLancamento": "2000-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Sinatra - His Great Performances 1953-1960",
+      "artist": "Frank Sinatra",
+      "tracks": 20,
+      "dateRelease": "2000-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 167,
-      "nome": "Classic Williams -- Romance of the Guitar",
-      "artista": "John Williams",
-      "faixas": 19,
-      "dataLancamento": "1984",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Williams -- Romance of the Guitar",
+      "artist": "John Williams",
+      "tracks": 19,
+      "dateRelease": "1984",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 168,
-      "nome": "Piano Magic Classic Movie Themes",
-      "artista": "Attila Fias",
-      "faixas": 16,
-      "dataLancamento": "2014-08-11",
-      "preco": 10,
-      "genero": {
+      "name": "Piano Magic Classic Movie Themes",
+      "artist": "Attila Fias",
+      "tracks": 16,
+      "dateRelease": "2014-08-11",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 169,
-      "nome": "The New Classic Trio",
-      "artista": "David Hazeltine",
-      "faixas": 10,
-      "dataLancamento": "2012-09-18",
-      "preco": 10,
-      "genero": {
+      "name": "The New Classic Trio",
+      "artist": "David Hazeltine",
+      "tracks": 10,
+      "dateRelease": "2012-09-18",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 170,
-      "nome": "Classic - EP",
-      "artista": "MUCC",
-      "faixas": 5,
-      "dataLancamento": "2016-09-16",
-      "preco": 10,
-      "genero": {
+      "name": "Classic - EP",
+      "artist": "MUCC",
+      "tracks": 5,
+      "dateRelease": "2016-09-16",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 171,
-      "nome": "Classic 80s Movie Songs",
-      "artista": "Various Artists",
-      "faixas": 28,
-      "dataLancamento": "2019-01-18",
-      "preco": 10,
-      "genero": {
+      "name": "Classic 80s Movie Songs",
+      "artist": "Various Artists",
+      "tracks": 28,
+      "dateRelease": "2019-01-18",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 172,
-      "nome": "20 Classic Piano Movie Themes",
-      "artista": "Pianoramix",
-      "faixas": 20,
-      "dataLancamento": "2015-08-28",
-      "preco": 10,
-      "genero": {
+      "name": "20 Classic Piano Movie Themes",
+      "artist": "Pianoramix",
+      "tracks": 20,
+      "dateRelease": "2015-08-28",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 173,
-      "nome": "Duets An American Classic",
-      "artista": "Tony Bennett",
-      "faixas": 19,
-      "dataLancamento": "2006-09-26",
-      "preco": 10,
-      "genero": {
+      "name": "Duets An American Classic",
+      "artist": "Tony Bennett",
+      "tracks": 19,
+      "dateRelease": "2006-09-26",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 174,
-      "nome": "American Classic",
-      "artista": "Willie Nelson",
-      "faixas": 12,
-      "dataLancamento": "2009-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "American Classic",
+      "artist": "Willie Nelson",
+      "tracks": 12,
+      "dateRelease": "2009-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 175,
-      "nome": "Classic Love Songs (World Ex. NA 18 track version)",
-      "artista": "George Benson",
-      "faixas": 18,
-      "dataLancamento": "2010-02-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Love Songs (World Ex. NA 18 track version)",
+      "artist": "George Benson",
+      "tracks": 18,
+      "dateRelease": "2010-02-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 176,
-      "nome": "OCCULT CLASSIC",
-      "artista": "Kill The Noise",
-      "faixas": 10,
-      "dataLancamento": "2015-10-09",
-      "preco": 10,
-      "genero": {
+      "name": "OCCULT CLASSIC",
+      "artist": "Kill The Noise",
+      "tracks": 10,
+      "dateRelease": "2015-10-09",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 177,
-      "nome": "Classic Rock Radio",
-      "artista": "Various Artists",
-      "faixas": 22,
-      "dataLancamento": "2018-06-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Rock Radio",
+      "artist": "Various Artists",
+      "tracks": 22,
+      "dateRelease": "2018-06-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 178,
-      "nome": "Classic J.J. Cale - The Universal Masters Collection",
-      "artista": "J.J. Cale",
-      "faixas": 18,
-      "dataLancamento": "1999-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic J.J. Cale - The Universal Masters Collection",
+      "artist": "J.J. Cale",
+      "tracks": 18,
+      "dateRelease": "1999-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 179,
-      "nome": "Songs for Kids: Classic Children's Music",
-      "artista": "Toddler Tunes",
-      "faixas": 14,
-      "dataLancamento": "2016-03-01",
-      "preco": 10,
-      "genero": {
+      "name": "Songs for Kids: Classic Children's Music",
+      "artist": "Toddler Tunes",
+      "tracks": 14,
+      "dateRelease": "2016-03-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 180,
-      "nome": "Punk Goes Classic Rock",
-      "artista": "Various Artists",
-      "faixas": 15,
-      "dataLancamento": "2010-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Punk Goes Classic Rock",
+      "artist": "Various Artists",
+      "tracks": 15,
+      "dateRelease": "2010-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 181,
-      "nome": "Classic (feat. POWERS)",
-      "artista": "The Knocks",
-      "faixas": 1,
-      "dataLancamento": "2014-08-12",
-      "preco": 10,
-      "genero": {
+      "name": "Classic (feat. POWERS)",
+      "artist": "The Knocks",
+      "tracks": 1,
+      "dateRelease": "2014-08-12",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 182,
-      "nome": "Classic Masters",
-      "artista": "T-Connection",
-      "faixas": 9,
-      "dataLancamento": "2002",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Masters",
+      "artist": "T-Connection",
+      "tracks": 9,
+      "dateRelease": "2002",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 183,
-      "nome": "Essential 80s - Classic Eighties Pop And Rock Hits",
-      "artista": "Various Artists",
-      "faixas": 60,
-      "dataLancamento": "2009-10-09",
-      "preco": 10,
-      "genero": {
+      "name": "Essential 80s - Classic Eighties Pop And Rock Hits",
+      "artist": "Various Artists",
+      "tracks": 60,
+      "dateRelease": "2009-10-09",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 184,
-      "nome": "Live from Classic T Stage",
-      "artista": "Nazareth",
-      "faixas": 19,
-      "dataLancamento": "2018-08-17",
-      "preco": 10,
-      "genero": {
+      "name": "Live from Classic T Stage",
+      "artist": "Nazareth",
+      "tracks": 19,
+      "dateRelease": "2018-08-17",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 185,
-      "nome": "The Classic Christmas Album",
-      "artista": "Kenny G",
-      "faixas": 16,
-      "dataLancamento": "2012-09-21",
-      "preco": 10,
-      "genero": {
+      "name": "The Classic Christmas Album",
+      "artist": "Kenny G",
+      "tracks": 16,
+      "dateRelease": "2012-09-21",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 186,
-      "nome": "Throwback Tunes: Classic Rock",
-      "artista": "Various Artists",
-      "faixas": 20,
-      "dataLancamento": "2017-10-20",
-      "preco": 10,
-      "genero": {
+      "name": "Throwback Tunes: Classic Rock",
+      "artist": "Various Artists",
+      "tracks": 20,
+      "dateRelease": "2017-10-20",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 187,
-      "nome": "The Godfather Trilogy (new Recordings from the Classic Scores)",
-      "artista": "The City of Prague Philharmonic Orchestra",
-      "faixas": 17,
-      "dataLancamento": "2001",
-      "preco": 10,
-      "genero": {
+      "name": "The Godfather Trilogy (new Recordings from the Classic Scores)",
+      "artist": "The City of Prague Philharmonic Orchestra",
+      "tracks": 17,
+      "dateRelease": "2001",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 188,
-      "nome": "Classic Petra Live (Expanded)",
-      "artista": "Petra",
-      "faixas": 19,
-      "dataLancamento": "2012-05-29",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Petra Live (Expanded)",
+      "artist": "Petra",
+      "tracks": 19,
+      "dateRelease": "2012-05-29",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 189,
-      "nome": "Raised On Classic Rock",
-      "artista": "Various Artists",
-      "faixas": 45,
-      "dataLancamento": "2010-02-01",
-      "preco": 10,
-      "genero": {
+      "name": "Raised On Classic Rock",
+      "artist": "Various Artists",
+      "tracks": 45,
+      "dateRelease": "2010-02-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 190,
-      "nome": "Classic 90's",
-      "artista": "Various Artists",
-      "faixas": 16,
-      "dataLancamento": "2003-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic 90's",
+      "artist": "Various Artists",
+      "tracks": 16,
+      "dateRelease": "2003-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 191,
-      "nome": "Classic",
-      "artista": "David Phelps",
-      "faixas": 13,
-      "dataLancamento": "2012-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic",
+      "artist": "David Phelps",
+      "tracks": 13,
+      "dateRelease": "2012-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 192,
-      "nome": "Who Say Jah No Dread - The Classic Augustus Pablo Sessions",
-      "artista": "Jacob Miller",
-      "faixas": 22,
-      "dataLancamento": "2015-12-11",
-      "preco": 10,
-      "genero": {
+      "name": "Who Say Jah No Dread - The Classic Augustus Pablo Sessions",
+      "artist": "Jacob Miller",
+      "tracks": 22,
+      "dateRelease": "2015-12-11",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 193,
-      "nome": "Best of Baby Beethoven Classic Music Box",
-      "artista": "Baby Mozart",
-      "faixas": 9,
-      "dataLancamento": "2017-02-05",
-      "preco": 10,
-      "genero": {
+      "name": "Best of Baby Beethoven Classic Music Box",
+      "artist": "Baby Mozart",
+      "tracks": 9,
+      "dateRelease": "2017-02-05",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 194,
-      "nome": "Classic Rock Hits for Dad",
-      "artista": "Harley's Studio Band",
-      "faixas": 45,
-      "dataLancamento": "2015-05-05",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Rock Hits for Dad",
+      "artist": "Harley's Studio Band",
+      "tracks": 45,
+      "dateRelease": "2015-05-05",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 195,
-      "nome": "My Souk the Classic",
-      "artista": "Der Pianist361",
-      "faixas": 11,
-      "dataLancamento": "2019-01-18",
-      "preco": 10,
-      "genero": {
+      "name": "My Souk the Classic",
+      "artist": "Der Pianist361",
+      "tracks": 11,
+      "dateRelease": "2019-01-18",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 196,
-      "nome": "Dream a Little Dream: Classic Piano Lullabies",
-      "artista": "Danny Wright",
-      "faixas": 20,
-      "dataLancamento": "2013-09-16",
-      "preco": 10,
-      "genero": {
+      "name": "Dream a Little Dream: Classic Piano Lullabies",
+      "artist": "Danny Wright",
+      "tracks": 20,
+      "dateRelease": "2013-09-16",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 197,
-      "nome": "Classic Patti Labelle - The Universal Masters Collection",
-      "artista": "Patti LaBelle",
-      "faixas": 16,
-      "dataLancamento": "2001-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Patti Labelle - The Universal Masters Collection",
+      "artist": "Patti LaBelle",
+      "tracks": 16,
+      "dateRelease": "2001-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 198,
-      "nome": "The Classic",
-      "artista": "(SHINHWA)",
-      "faixas": 10,
-      "dataLancamento": "2013-05-16",
-      "preco": 10,
-      "genero": {
+      "name": "The Classic",
+      "artist": "(SHINHWA)",
+      "tracks": 10,
+      "dateRelease": "2013-05-16",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 199,
-      "nome": "Classic Masters",
-      "artista": "Michael Johnson",
-      "faixas": 12,
-      "dataLancamento": "2002-01-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Masters",
+      "artist": "Michael Johnson",
+      "tracks": 12,
+      "dateRelease": "2002-01-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     },
     {
       "id": 200,
-      "nome": "Classic Pop Rock Solo Piano",
-      "artista": "Louis Landon",
-      "faixas": 12,
-      "dataLancamento": "2017-07-01",
-      "preco": 10,
-      "genero": {
+      "name": "Classic Pop Rock Solo Piano",
+      "artist": "Louis Landon",
+      "tracks": 12,
+      "dateRelease": "2017-07-01",
+      "price": 10,
+      "genre": {
         "id": 3,
-        "descricao": "CLASSIC"
+        "description": "CLASSIC"
       }
     }
   ]

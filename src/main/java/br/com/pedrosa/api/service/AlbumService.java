@@ -7,11 +7,13 @@ import br.com.pedrosa.api.domain.Album;
 import br.com.pedrosa.api.dto.AlbumDTO;
 import br.com.pedrosa.api.exception.ResourceNotFoundException;
 
-public interface AlbumService extends CrudService<Album, Long> {
+public interface AlbumService{
 	
-	Page<AlbumDTO> findByGeneroId(Long generoId, Pageable pageable);
+	Page<AlbumDTO> findByGenreId(Long genreId, Pageable pageable);
 	
 	Page<AlbumDTO> listAll(Pageable pageable);
 	
 	AlbumDTO findById(Long id) throws ResourceNotFoundException;
+	
+	void save(Album album);
 }

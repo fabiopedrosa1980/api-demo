@@ -5,13 +5,13 @@ import java.io.Serializable;
 import javax.persistence.Embeddable;
 
 @Embeddable
-public class VendaAlbumPK implements Serializable {
+public class SaleAlbumPK implements Serializable {
 	
 	private static final long serialVersionUID = 7366226189173766783L;
 	
-	public VendaAlbumPK() {}
+	public SaleAlbumPK() {}
 
-	public VendaAlbumPK(Long idVenda, Long idAlbum) {
+	public SaleAlbumPK(Long idVenda, Long idAlbum) {
 		super();
 		this.idVenda = idVenda;
 		this.idAlbum = idAlbum;

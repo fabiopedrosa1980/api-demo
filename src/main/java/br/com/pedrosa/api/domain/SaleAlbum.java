@@ -7,26 +7,26 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="VENDA_ALBUM")
-public class VendaAlbum implements Serializable  {
+@Table(name="SALE_ALBUM")
+public class SaleAlbum implements Serializable  {
 	
 	private static final long serialVersionUID = -8890378410852160347L;
 	
 	@EmbeddedId
-	private VendaAlbumPK pk;
+	private SaleAlbumPK pk;
 	
-	public VendaAlbum() {}
+	public SaleAlbum() {}
 	
-	public VendaAlbum(VendaAlbumPK pk) {
+	public SaleAlbum(SaleAlbumPK pk) {
 		super();
 		this.pk = pk;
 	}
 
-	public VendaAlbumPK getPk() {
+	public SaleAlbumPK getPk() {
 		return pk;
 	}
 
-	public void setPk(VendaAlbumPK pk) {
+	public void setPk(SaleAlbumPK pk) {
 		this.pk = pk;
 	}
 	
