@@ -25,3 +25,6 @@ HELP.md
 /nbdist/
 /.nb-gradle/
 /build/
+
+**/.DS_Store
+
