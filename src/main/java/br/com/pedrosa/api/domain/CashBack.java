@@ -25,7 +25,9 @@ public class CashBack implements Serializable {
 	private Long idSale;
 	
 	private Long idAlbum;
-
+	
+	public CashBack() {}
+	
 	public CashBack(Double amount, Long idSale, Long idAlbum) {
 		super();
 		this.amount = amount;

@@ -31,6 +31,18 @@ public class Album implements Serializable {
 
 	private Double price;
 	
+	public Album() {}
+	
+	public Album(String name, String artist, Integer tracks, String dateRelease, Double price, Genre genre) {
+		super();
+		this.name = name;
+		this.artist = artist;
+		this.tracks = tracks;
+		this.dateRelease = dateRelease;
+		this.price = price;
+		this.genre = genre;
+	}
+
 	@OneToOne
 	private Genre genre;
 

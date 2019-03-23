@@ -1,7 +1,5 @@
 package br.com.pedrosa.api;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +17,12 @@ public class PopulateAlbumServiceTest {
 
 	@Test
 	public void populateAlbumFromJsonTest() throws Exception {
-		assertTrue(populateAlbunsService.populateAlbunsFromJson());
+		populateAlbunsService.populateAlbunsFromJson();
+	}
+	
+	@Test
+	public void populateAlbumFromAPI() throws Exception {
+		populateAlbunsService.populateAlbunsFromApi();
 	}
 
 }

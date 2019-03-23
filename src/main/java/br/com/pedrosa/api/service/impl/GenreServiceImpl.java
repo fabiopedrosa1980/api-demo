@@ -43,8 +43,12 @@ public class GenreServiceImpl implements GenreService {
 		});
 	}
 	
-	private GenreDTO convertToDTO(Genre genero) {
+	public GenreDTO convertToDTO(Genre genero) {
 		return modelMapper.map(genero, GenreDTO.class);
+	}
+	
+	public Genre convertToEntity(GenreDTO genreDTO) {
+		return modelMapper.map(genreDTO, Genre.class);
 	}
 
 	

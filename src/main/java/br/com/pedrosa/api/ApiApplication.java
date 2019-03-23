@@ -19,8 +19,8 @@ public class ApiApplication {
 	}
 
 	@PostConstruct
-    public void init() throws Exception {
-       this.populateAlbunsService.populateAlbunsFromJson();
+    public void init() throws Throwable {
+      this.populateAlbunsService.populateAlbunsFromApi();
     }
 
 }

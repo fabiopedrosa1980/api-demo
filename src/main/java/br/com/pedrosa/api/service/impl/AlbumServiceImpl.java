@@ -54,7 +54,6 @@ public class AlbumServiceImpl implements AlbumService {
 		        return convertToDTO(album);
 		    }
 		});
-		
 	}
 	
 	private AlbumDTO convertToDTO(Album album) {

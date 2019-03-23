@@ -2,17 +2,13 @@ package br.com.pedrosa.api.spotify.dto;
 
 import java.util.List;
 
-import org.codehaus.jackson.annotate.JsonProperty;
-
 public class ItemDTO {
 	
 	private String name;
 	
-	@JsonProperty("release_date")
-	private String releaseDate;
+	private String release_date;
 	
-	@JsonProperty("total_tracks")
-	private String totalTracks;
+	private String total_tracks;
 	
 	private List<ArtistDTO> artists;
 
@@ -24,20 +20,20 @@ public class ItemDTO {
 		this.name = name;
 	}
 
-	public String getReleaseDate() {
-		return releaseDate;
+	public String getRelease_date() {
+		return release_date;
 	}
 
-	public void setReleaseDate(String releaseDate) {
-		this.releaseDate = releaseDate;
+	public void setRelease_date(String release_date) {
+		this.release_date = release_date;
 	}
 
-	public String getTotalTracks() {
-		return totalTracks;
+	public String getTotal_tracks() {
+		return total_tracks;
 	}
 
-	public void setTotalTracks(String totalTracks) {
-		this.totalTracks = totalTracks;
+	public void setTotal_tracks(String total_tracks) {
+		this.total_tracks = total_tracks;
 	}
 
 	public List<ArtistDTO> getArtists() {
@@ -47,5 +43,6 @@ public class ItemDTO {
 	public void setArtists(List<ArtistDTO> artists) {
 		this.artists = artists;
 	}
+
 
 }
