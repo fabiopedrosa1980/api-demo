@@ -22,12 +22,9 @@ public class TokenSpotifyTest {
     @Test
 	public void getTokenFromSpotify() throws SpotifyException {
     	AuthResponseDTO authResponseDTO = apiSpotifyService.getToken();
-    	assertNotNull(authResponseDTO.getAccess_token());
-    	assertNotNull(authResponseDTO.getRefresh_token());
-    	assertNotNull(authResponseDTO.getExpires_in());
+    	assertNotNull(authResponseDTO.getAccessToken());
+    	assertNotNull(authResponseDTO.getRefreshToken());
+    	assertNotNull(authResponseDTO.getExpiresIn());
 	}
-
-    
-    
 
 }

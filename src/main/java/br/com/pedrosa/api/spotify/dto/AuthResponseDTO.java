@@ -1,36 +1,40 @@
 package br.com.pedrosa.api.spotify.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class AuthResponseDTO {
 	
-	private String access_token;
+	@JsonProperty(value="access_token")
+	private String accessToken;
 	
-	private String expires_in;
+	@JsonProperty(value="expires_in")
+	private String expiresIn;
 	
-	private String refresh_token;
+	@JsonProperty(value="refresh_token")
+	private String refreshToken;
 
-	public String getAccess_token() {
-		return access_token;
+	public String getAccessToken() {
+		return accessToken;
 	}
 
-	public void setAccess_token(String access_token) {
-		this.access_token = access_token;
+	public void setAccessToken(String accessToken) {
+		this.accessToken = accessToken;
 	}
 
-	public String getExpires_in() {
-		return expires_in;
+	public String getExpiresIn() {
+		return expiresIn;
 	}
 
-	public void setExpires_in(String expires_in) {
-		this.expires_in = expires_in;
+	public void setExpiresIn(String expiresIn) {
+		this.expiresIn = expiresIn;
 	}
 
-	public String getRefresh_token() {
-		return refresh_token;
+	public String getRefreshToken() {
+		return refreshToken;
 	}
 
-	public void setRefresh_token(String refresh_token) {
-		this.refresh_token = refresh_token;
+	public void setRefreshToken(String refreshToken) {
+		this.refreshToken = refreshToken;
 	}
-	
 
 }

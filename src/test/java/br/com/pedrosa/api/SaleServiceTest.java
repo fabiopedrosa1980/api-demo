@@ -42,8 +42,6 @@ public class SaleServiceTest {
 		assertNotNull(vendaDTO.getTotalOrder());
 		assertNotNull(vendaDTO.getCashBack());
 		assertNotNull(vendaDTO.getDateSale());
-		
 	}
-	
 
 }

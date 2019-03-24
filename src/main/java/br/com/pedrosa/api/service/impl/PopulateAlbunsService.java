@@ -57,7 +57,7 @@ public class PopulateAlbunsService {
 	private void saveAlbuns(GenreDTO genreDTO, ResponseSpotifyDTO responseSpotifyDTO) {
 		responseSpotifyDTO.getAlbums().getItems().forEach(item -> {
 			ArtistDTO artistDTO = item.getArtists().get(0);
-			albumService.save(new Album(item.getName(), artistDTO.getName(), Integer.parseInt(item.getTotal_tracks()),item.getRelease_date(), ApiUtils.generatePriceRandom(10,50), genreService.convertToEntity(genreDTO)));
+			albumService.save(new Album(item.getName(), artistDTO.getName(), item.getTotalTracks(),item.getReleaseDate(), ApiUtils.generatePriceRandom(10,50), genreService.convertToEntity(genreDTO)));
 		});
 	}
 

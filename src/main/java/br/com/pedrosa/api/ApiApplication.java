@@ -19,7 +19,7 @@ public class ApiApplication {
 	}
 
 	@PostConstruct
-    public void init() throws Throwable {
+    public void init() {
       this.populateAlbunsService.populateAlbunsFromApi();
     }
 

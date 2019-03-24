@@ -21,8 +21,4 @@ public class AlbumRepositoryTest {
 	public void hasAlbum() {
 		assertNotNull(albumRepository.findAll());
 	}
-
-    
-    
-
 }

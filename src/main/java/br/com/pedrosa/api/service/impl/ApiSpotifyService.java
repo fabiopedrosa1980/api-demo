@@ -33,14 +33,12 @@ public class ApiSpotifyService {
 	}
 	
 	public AuthResponseDTO getToken(){
-		final HttpEntity<String> entity = buildHttpAuthorizationBasic();
-		ResponseEntity<AuthResponseDTO> result = restTemplate.exchange(urlSpotifyToken, HttpMethod.POST, entity,AuthResponseDTO.class);
+		ResponseEntity<AuthResponseDTO> result = restTemplate.exchange(urlSpotifyToken, HttpMethod.POST, buildHttpAuthorizationBasic(),AuthResponseDTO.class);
 		return result.getBody();
 	}
 	
 	public ResponseSpotifyDTO getAlbunsByGenre(String genre){
-		final HttpEntity<String> entity = buildHttpAuthorizationBearer();
-		ResponseEntity<ResponseSpotifyDTO> result = restTemplate.exchange(urlSpotify + "search?q=" + genre + "&type=album&market=BR&limit=50", HttpMethod.GET, entity,ResponseSpotifyDTO.class);
+		ResponseEntity<ResponseSpotifyDTO> result = restTemplate.exchange(urlSpotify + "search?q=" + genre + "&type=album&market=BR&limit=50", HttpMethod.GET, buildHttpAuthorizationBearer(),ResponseSpotifyDTO.class);
 		return result.getBody();
 	}	
 
@@ -52,7 +50,7 @@ public class ApiSpotifyService {
 	
 	private HttpEntity<String> buildHttpAuthorizationBearer(){
 		HttpHeaders headers = new HttpHeaders();
-		headers.setBearerAuth(this.getToken().getAccess_token());
+		headers.setBearerAuth(this.getToken().getAccessToken());
 		return new HttpEntity<>(headers);
 	}
 }
