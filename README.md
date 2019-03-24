@@ -1,8 +1,11 @@
 # Manual da API
 
 ## Para realização dos testes existe o swagger
-
 - http://localhost:8088/swagger-ui.html
+
+###Clique no botao Authorize e use
+- username: api
+- password: spotify 
 
 ## API Venda de Discos
 
@@ -11,5 +14,7 @@
 - Oauth 2
 - H2
 - JPA
+
+
 
 
