@@ -3,7 +3,7 @@
 ## Para realização dos testes existe o swagger
 - http://localhost:8088/swagger-ui.html
 
-###Clique no botao Authorize e use
+### Clique no botao Authorize e use
 - username: api
 - password: spotify 
 
