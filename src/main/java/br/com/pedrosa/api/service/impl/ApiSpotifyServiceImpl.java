@@ -8,11 +8,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import br.com.pedrosa.api.service.ApiSpotifyService;
 import br.com.pedrosa.api.spotify.dto.AuthResponseDTO;
 import br.com.pedrosa.api.spotify.dto.ResponseSpotifyDTO;
 
 @Service
-public class ApiSpotifyService {
+public class ApiSpotifyServiceImpl implements ApiSpotifyService {
 	
 	@Value("${urlSpotify}")
 	private String urlSpotify;
@@ -28,15 +29,17 @@ public class ApiSpotifyService {
 	
 	private RestTemplate restTemplate;
 	
-	public ApiSpotifyService(RestTemplate restTemplate) {
+	public ApiSpotifyServiceImpl(RestTemplate restTemplate) {
 		this.restTemplate = restTemplate;
 	}
 	
+	@Override
 	public AuthResponseDTO getToken(){
 		ResponseEntity<AuthResponseDTO> result = restTemplate.exchange(urlSpotifyToken, HttpMethod.POST, buildHttpAuthorizationBasic(),AuthResponseDTO.class);
 		return result.getBody();
 	}
 	
+	@Override
 	public ResponseSpotifyDTO getAlbunsByGenre(String genre){
 		ResponseEntity<ResponseSpotifyDTO> result = restTemplate.exchange(urlSpotify + "search?q=" + genre + "&type=album&market=BR&limit=50", HttpMethod.GET, buildHttpAuthorizationBearer(),ResponseSpotifyDTO.class);
 		return result.getBody();

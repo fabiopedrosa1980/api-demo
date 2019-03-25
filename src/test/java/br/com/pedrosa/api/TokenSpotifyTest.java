@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.pedrosa.api.exception.SpotifyException;
-import br.com.pedrosa.api.service.impl.ApiSpotifyService;
+import br.com.pedrosa.api.service.impl.ApiSpotifyServiceImpl;
 import br.com.pedrosa.api.spotify.dto.AuthResponseDTO;
 
 @RunWith(SpringRunner.class)
@@ -17,7 +17,7 @@ import br.com.pedrosa.api.spotify.dto.AuthResponseDTO;
 public class TokenSpotifyTest {
  
     @Autowired
-    private ApiSpotifyService apiSpotifyService;
+    private ApiSpotifyServiceImpl apiSpotifyService;
     
     @Test
 	public void getTokenFromSpotify() throws SpotifyException {

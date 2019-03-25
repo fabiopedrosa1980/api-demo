@@ -16,7 +16,6 @@ import br.com.pedrosa.api.service.GenreService;
 public class GenreServiceImpl implements GenreService {
 
 	private GenreRepository generoRepository;
-	
 	private ModelMapper modelMapper;
 	
 	public GenreServiceImpl(GenreRepository generoRepository, ModelMapper modelMapper) {
@@ -37,8 +36,8 @@ public class GenreServiceImpl implements GenreService {
 	private Page<GenreDTO> buildPageDTO(Page<Genre> genres) {
 		return genres.map(new Function<Genre, GenreDTO>() {
 		    @Override
-		    public GenreDTO apply(Genre album) {
-		        return convertToDTO(album);
+		    public GenreDTO apply(Genre genre) {
+		        return convertToDTO(genre);
 		    }
 		});
 	}

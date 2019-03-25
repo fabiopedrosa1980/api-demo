@@ -28,13 +28,9 @@ import br.com.pedrosa.api.utils.ApiUtils;
 public class SaleServiceImpl implements SaleService {
 	
 	private SaleRepository saleRepository;
-	
 	private CashBackRepository cashBackRepository;
-	
 	private ConfigPriceService configPriceService;
-	
 	private SaleAlbumRepository saleAlbumRepository;
-	
 	private ModelMapper modelMapper;
 	
 	public SaleServiceImpl(SaleRepository saleRepository, CashBackRepository cashBackRepository,
@@ -121,8 +117,8 @@ public class SaleServiceImpl implements SaleService {
 	private Page<SaleDTO> buildPageDTO(Page<Sale> sales) {
 		return sales.map(new Function<Sale, SaleDTO>() {
 		    @Override
-		    public SaleDTO apply(Sale venda) {
-		        return convertToDTO(venda);
+		    public SaleDTO apply(Sale sale) {
+		        return convertToDTO(sale);
 		    }
 		});
 		

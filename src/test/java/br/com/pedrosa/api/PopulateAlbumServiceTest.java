@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import br.com.pedrosa.api.service.impl.PopulateAlbunsService;
+import br.com.pedrosa.api.service.impl.PopulateAlbunsServiceImpl;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class PopulateAlbumServiceTest {
 	
 	@Autowired
-	private PopulateAlbunsService populateAlbunsService;
+	private PopulateAlbunsServiceImpl populateAlbunsService;
 
 	@Test
 	public void populateAlbumFromJsonTest() throws Exception {

@@ -17,35 +17,36 @@ import br.com.pedrosa.api.domain.Album;
 import br.com.pedrosa.api.dto.GenreDTO;
 import br.com.pedrosa.api.service.AlbumService;
 import br.com.pedrosa.api.service.GenreService;
+import br.com.pedrosa.api.service.PopulateAlbunsService;
 import br.com.pedrosa.api.spotify.dto.ArtistDTO;
 import br.com.pedrosa.api.spotify.dto.ResponseSpotifyDTO;
 import br.com.pedrosa.api.utils.ApiUtils;
 
 @Service
-public class PopulateAlbunsService {
+public class PopulateAlbunsServiceImpl implements PopulateAlbunsService {
 
 	private AlbumService albumService;
-	
-	private ApiSpotifyService apiSpotifyService;
-	
+	private ApiSpotifyServiceImpl apiSpotifyService;
 	private GenreService genreService;
 	
-	public PopulateAlbunsService(AlbumService albumService, ApiSpotifyService apiSpotifyService,GenreService genreService) {
+	public PopulateAlbunsServiceImpl(AlbumService albumService, ApiSpotifyServiceImpl apiSpotifyService,GenreService genreService) {
 		this.albumService = albumService;
 		this.apiSpotifyService = apiSpotifyService;
 		this.genreService = genreService;
 	}
 	
+	@Override
 	public void populateAlbunsFromJson() throws  IOException {
 		String content = getJsonFromFile();
 		ObjectMapper objectMapper = new ObjectMapper();
 		List<Album> albuns = objectMapper.readValue(content, new TypeReference<List<Album>>() {});
-		for (Album album : albuns) {
+		albuns.forEach(album ->{
 			album.setPrice(ApiUtils.generatePriceRandom(10,50));
 			albumService.save(album);
-		}
+		});
 	}
 	
+	@Override
 	public void populateAlbunsFromApi(){
 		Pageable pageable = PageRequest.of(0, 20);
 		genreService.listAll(pageable).getContent().forEach(genreDTO -> {

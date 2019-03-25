@@ -17,7 +17,6 @@ import br.com.pedrosa.api.service.AlbumService;
 public class AlbumServiceImpl implements AlbumService {
 	
 	private AlbumRepository albumRepository;
-	
 	private ModelMapper modelMapper;
 	
 	public AlbumServiceImpl(AlbumRepository albumRepository, ModelMapper modelMapper) {
