@@ -1,17 +1,14 @@
 package br.com.pedrosa.api.service.impl;
 
-import java.util.function.Function;
-
+import br.com.pedrosa.api.domain.Genre;
+import br.com.pedrosa.api.dto.GenreDTO;
+import br.com.pedrosa.api.repository.GenreRepository;
+import br.com.pedrosa.api.service.GenreService;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
-import br.com.pedrosa.api.domain.Genre;
-import br.com.pedrosa.api.dto.GenreDTO;
-import br.com.pedrosa.api.repository.GenreRepository;
-import br.com.pedrosa.api.service.GenreService;
 
 @Service
 @AllArgsConstructor

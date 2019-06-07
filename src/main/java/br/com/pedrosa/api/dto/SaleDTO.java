@@ -17,14 +17,9 @@ public class SaleDTO {
 	private Long id;
 	private Double cashBack;
 	private Double totalOrder;
-	
 	@JsonIgnore
 	private Set<AlbumDTO> albuns;
 	private Set<CashBackDTO> cashBacks;
-
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
 	private LocalDateTime dateSale;
-
-
-
 }

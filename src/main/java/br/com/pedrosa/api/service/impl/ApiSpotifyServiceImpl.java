@@ -32,7 +32,7 @@ public class ApiSpotifyServiceImpl implements ApiSpotifyService {
 	public ApiSpotifyServiceImpl(RestTemplate restTemplate) {
 		this.restTemplate = restTemplate;
 	}
-	
+
 	@Override
 	public AuthResponseDTO getToken(){
 		ResponseEntity<AuthResponseDTO> result = restTemplate.exchange(urlSpotifyToken, HttpMethod.POST, buildHttpAuthorizationBasic(),AuthResponseDTO.class);

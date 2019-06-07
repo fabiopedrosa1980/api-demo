@@ -18,7 +18,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
-import java.util.function.Function;
 
 @Service
 @AllArgsConstructor
@@ -53,10 +52,8 @@ public class SaleServiceImpl implements SaleService {
 	
 	void saveCashBack(Sale sale){
 		sale.getAlbuns().forEach(album -> {
-
 			log.info("dia da semana" + ApiUtils.getDayOfWeek());
 			log.info("genero" +  album.getGenre().getId());
-
 			ConfigPrice cp =  this.configPriceService.findByDayAndGenreId(ApiUtils.getDayOfWeek(), album.getGenre().getId());
 			if(cp != null){
 				cashBackRepository.save(new CashBack(null,this.buildPrice(album, cp), sale.getId(), album.getId()));

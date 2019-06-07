@@ -13,6 +13,6 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class SaleAlbumPK implements Serializable {
 
-	private Long idVenda;
+	private Long idSale;
 	private Long idAlbum;
 }

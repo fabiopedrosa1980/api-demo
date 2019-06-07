@@ -14,8 +14,6 @@ public class GenreDTO {
 
 	@NotNull(message="Id do Genero é obrigatório")
 	private Long id;
-
 	@NotEmpty(message="Descrição do Genero é obrigatório")
 	private String description;
-
 }

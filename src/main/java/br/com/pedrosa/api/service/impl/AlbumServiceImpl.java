@@ -1,18 +1,15 @@
 package br.com.pedrosa.api.service.impl;
 
-import java.util.function.Function;
-
-import lombok.AllArgsConstructor;
-import org.modelmapper.ModelMapper;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Service;
-
 import br.com.pedrosa.api.domain.Album;
 import br.com.pedrosa.api.dto.AlbumDTO;
 import br.com.pedrosa.api.exception.ResourceNotFoundException;
 import br.com.pedrosa.api.repository.AlbumRepository;
 import br.com.pedrosa.api.service.AlbumService;
+import lombok.AllArgsConstructor;
+import org.modelmapper.ModelMapper;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
