@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.pedrosa.api.dto.GenreDTO;
 import br.com.pedrosa.api.service.GenreService;
 
-
 @RestController
 @RequestMapping("api/V1/genre")
 @AllArgsConstructor

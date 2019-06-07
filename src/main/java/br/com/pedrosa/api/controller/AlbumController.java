@@ -14,7 +14,6 @@ import br.com.pedrosa.api.dto.AlbumDTO;
 import br.com.pedrosa.api.exception.ResourceNotFoundException;
 import br.com.pedrosa.api.service.AlbumService;
 
-
 @RestController
 @RequestMapping("api/V1/album")
 @AllArgsConstructor

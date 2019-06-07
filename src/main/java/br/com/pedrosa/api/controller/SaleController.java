@@ -22,7 +22,6 @@ import br.com.pedrosa.api.exception.ResourceNotFoundException;
 import br.com.pedrosa.api.service.SaleService;
 import br.com.pedrosa.api.utils.ApiUtils;
 
-
 @RestController
 @RequestMapping("api/V1/sale")
 @AllArgsConstructor
