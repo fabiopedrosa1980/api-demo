@@ -1,19 +1,6 @@
 package br.com.pedrosa.api.service.impl;
 
-import java.util.Set;
-import java.util.function.Function;
-
-import org.modelmapper.ModelMapper;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Service;
-
-import br.com.pedrosa.api.domain.Album;
-import br.com.pedrosa.api.domain.CashBack;
-import br.com.pedrosa.api.domain.ConfigPrice;
-import br.com.pedrosa.api.domain.Sale;
-import br.com.pedrosa.api.domain.SaleAlbum;
-import br.com.pedrosa.api.domain.SaleAlbumPK;
+import br.com.pedrosa.api.domain.*;
 import br.com.pedrosa.api.dto.SaleDTO;
 import br.com.pedrosa.api.dto.SaleInDTO;
 import br.com.pedrosa.api.exception.ResourceNotFoundException;
@@ -23,8 +10,19 @@ import br.com.pedrosa.api.repository.SaleRepository;
 import br.com.pedrosa.api.service.ConfigPriceService;
 import br.com.pedrosa.api.service.SaleService;
 import br.com.pedrosa.api.utils.ApiUtils;
+import lombok.AllArgsConstructor;
+import lombok.extern.log4j.Log4j2;
+import org.modelmapper.ModelMapper;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+
+import java.util.Set;
+import java.util.function.Function;
 
 @Service
+@AllArgsConstructor
+@Log4j2
 public class SaleServiceImpl implements SaleService {
 	
 	private SaleRepository saleRepository;
@@ -32,15 +30,6 @@ public class SaleServiceImpl implements SaleService {
 	private ConfigPriceService configPriceService;
 	private SaleAlbumRepository saleAlbumRepository;
 	private ModelMapper modelMapper;
-	
-	public SaleServiceImpl(SaleRepository saleRepository, CashBackRepository cashBackRepository,
-			ConfigPriceService configPriceService, SaleAlbumRepository saleAlbumRepository, ModelMapper modelMapper) {
-		this.saleRepository = saleRepository;
-		this.cashBackRepository = cashBackRepository;
-		this.configPriceService = configPriceService;
-		this.saleAlbumRepository = saleAlbumRepository;
-		this.modelMapper = modelMapper;
-	}
 
 	@Override
 	public SaleDTO sell(SaleInDTO saleIn) {
@@ -64,8 +53,14 @@ public class SaleServiceImpl implements SaleService {
 	
 	void saveCashBack(Sale sale){
 		sale.getAlbuns().forEach(album -> {
+
+			log.info("dia da semana" + ApiUtils.getDayOfWeek());
+			log.info("genero" +  album.getGenre().getId());
+
 			ConfigPrice cp =  this.configPriceService.findByDayAndGenreId(ApiUtils.getDayOfWeek(), album.getGenre().getId());
-			cashBackRepository.save(new CashBack(this.buildPrice(album, cp), sale.getId(), album.getId()));
+			if(cp != null){
+				cashBackRepository.save(new CashBack(null,this.buildPrice(album, cp), sale.getId(), album.getId()));
+			}
 		});
 	}
 	
@@ -99,14 +94,16 @@ public class SaleServiceImpl implements SaleService {
 	
 	@Override
 	public SaleDTO findById(Long id) throws ResourceNotFoundException {
-		Sale venda = saleRepository.findById(id)
+		Sale sale = saleRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException("Sale not found on "+ id));		
-		venda.setCashBacks(getCashBacksSale(venda));
-		return this.convertToDTO(venda);
+
+		sale.setCashBacks(getCashBacksSale(sale));
+
+		return this.convertToDTO(sale);
 	}
 
-	private Set<CashBack> getCashBacksSale(Sale venda) {
-		return cashBackRepository.findByIdSale(venda.getId());
+	private Set<CashBack> getCashBacksSale(Sale sale) {
+		return cashBackRepository.findByIdSale(sale.getId());
 	}
 
 	@Override
@@ -115,19 +112,17 @@ public class SaleServiceImpl implements SaleService {
 	}
 	
 	private Page<SaleDTO> buildPageDTO(Page<Sale> sales) {
-		return sales.map(new Function<Sale, SaleDTO>() {
-		    @Override
-		    public SaleDTO apply(Sale sale) {
-		        return convertToDTO(sale);
-		    }
-		});
+		return sales.map(sale -> convertToDTO(sale));
 		
 	}
 	
-	private SaleDTO convertToDTO(Sale venda) {
-		return modelMapper.map(venda, SaleDTO.class);
+	private SaleDTO convertToDTO(Sale sale) {
+
+		return modelMapper.map(sale, SaleDTO.class);
 	}
+
 	private Sale convertToEntity(SaleInDTO vendaEntradaDTO) {
+
 		return modelMapper.map(vendaEntradaDTO, Sale.class);
 	}
 

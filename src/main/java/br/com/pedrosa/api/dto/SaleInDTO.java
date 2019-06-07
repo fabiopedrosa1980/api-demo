@@ -6,30 +6,17 @@ import java.util.Set;
 import javax.validation.Valid;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class SaleInDTO {
 
+	@Valid
 	private Set<AlbumDTO> albuns;
-	
 	@JsonIgnore
 	private LocalDateTime dateSale =  LocalDateTime.now();
-
-	@Valid
-	public Set<AlbumDTO> getAlbuns() {
-		return albuns;
-	}
-
-	public LocalDateTime getDateSale() {
-		return dateSale;
-	}
-
-	public void setDateSale(LocalDateTime dateSale) {
-		this.dateSale = dateSale;
-	}
-
-	public void setAlbuns(Set<AlbumDTO> albuns) {
-		this.albuns = albuns;
-	}
-
-
 }

@@ -1,7 +1,13 @@
 package br.com.pedrosa.api.spotify.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class AuthResponseDTO {
 	
 	@JsonProperty(value="access_token")
@@ -13,28 +19,6 @@ public class AuthResponseDTO {
 	@JsonProperty(value="refresh_token")
 	private String refreshToken;
 
-	public String getAccessToken() {
-		return accessToken;
-	}
 
-	public void setAccessToken(String accessToken) {
-		this.accessToken = accessToken;
-	}
-
-	public String getExpiresIn() {
-		return expiresIn;
-	}
-
-	public void setExpiresIn(String expiresIn) {
-		this.expiresIn = expiresIn;
-	}
-
-	public String getRefreshToken() {
-		return refreshToken;
-	}
-
-	public void setRefreshToken(String refreshToken) {
-		this.refreshToken = refreshToken;
-	}
 
 }

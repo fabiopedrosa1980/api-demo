@@ -1,5 +1,6 @@
 package br.com.pedrosa.api.controller;
 
+import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -14,13 +15,11 @@ import br.com.pedrosa.api.service.GenreService;
 
 @RestController
 @RequestMapping("api/V1/genre")
+@AllArgsConstructor
 public class GenreController  {
 	
 	private GenreService generoService;
-	
-	public GenreController(GenreService generoService) {
-		this.generoService = generoService;
-	}
+
 	
 	@GetMapping
 	@ResponseStatus(HttpStatus.OK)

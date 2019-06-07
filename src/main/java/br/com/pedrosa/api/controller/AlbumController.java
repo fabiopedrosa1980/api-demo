@@ -1,5 +1,6 @@
 package br.com.pedrosa.api.controller;
 
+import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -16,14 +17,11 @@ import br.com.pedrosa.api.service.AlbumService;
 
 @RestController
 @RequestMapping("api/V1/album")
+@AllArgsConstructor
 public class AlbumController{
 	
 	private AlbumService albumService;
-	
-	public AlbumController(AlbumService albumService) {
-		this.albumService = albumService;
-	}
-	
+
 	@GetMapping("{id}")
 	@ResponseStatus(HttpStatus.OK)
 	public AlbumDTO findById(@PathVariable Long id) throws ResourceNotFoundException {

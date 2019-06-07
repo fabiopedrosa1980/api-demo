@@ -2,6 +2,7 @@ package br.com.pedrosa.api.service.impl;
 
 import java.util.function.Function;
 
+import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -13,15 +14,11 @@ import br.com.pedrosa.api.repository.GenreRepository;
 import br.com.pedrosa.api.service.GenreService;
 
 @Service
+@AllArgsConstructor
 public class GenreServiceImpl implements GenreService {
 
 	private GenreRepository generoRepository;
 	private ModelMapper modelMapper;
-	
-	public GenreServiceImpl(GenreRepository generoRepository, ModelMapper modelMapper) {
-		this.generoRepository = generoRepository;
-		this.modelMapper = modelMapper;
-	}
 
 	@Override
 	public GenreDTO findByDescription(String description) {
@@ -34,12 +31,7 @@ public class GenreServiceImpl implements GenreService {
 	}
 	
 	private Page<GenreDTO> buildPageDTO(Page<Genre> genres) {
-		return genres.map(new Function<Genre, GenreDTO>() {
-		    @Override
-		    public GenreDTO apply(Genre genre) {
-		        return convertToDTO(genre);
-		    }
-		});
+		return genres.map(genre -> convertToDTO(genre));
 	}
 	
 	public GenreDTO convertToDTO(Genre genero) {

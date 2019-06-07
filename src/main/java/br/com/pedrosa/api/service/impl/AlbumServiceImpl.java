@@ -2,6 +2,7 @@ package br.com.pedrosa.api.service.impl;
 
 import java.util.function.Function;
 
+import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -14,16 +15,12 @@ import br.com.pedrosa.api.repository.AlbumRepository;
 import br.com.pedrosa.api.service.AlbumService;
 
 @Service
+@AllArgsConstructor
 public class AlbumServiceImpl implements AlbumService {
 	
 	private AlbumRepository albumRepository;
 	private ModelMapper modelMapper;
-	
-	public AlbumServiceImpl(AlbumRepository albumRepository, ModelMapper modelMapper) {
-		this.albumRepository = albumRepository;
-		this.modelMapper = modelMapper;
-	}
-	
+
 	@Override
 	public void save(Album album) {
 		albumRepository.save(album);
@@ -47,12 +44,7 @@ public class AlbumServiceImpl implements AlbumService {
 	}
 	
 	private Page<AlbumDTO> buildPageDTO(Page<Album> albuns) {
-		return albuns.map(new Function<Album, AlbumDTO>() {
-		    @Override
-		    public AlbumDTO apply(Album album) {
-		        return convertToDTO(album);
-		    }
-		});
+		return albuns.map(album -> convertToDTO(album));
 	}
 	
 	private AlbumDTO convertToDTO(Album album) {

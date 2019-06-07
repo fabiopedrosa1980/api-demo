@@ -1,5 +1,9 @@
 package br.com.pedrosa.api.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.io.Serializable;
 
 import javax.persistence.EmbeddedId;
@@ -8,27 +12,11 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="SALE_ALBUM")
-public class SaleAlbum implements Serializable  {
-	
-	private static final long serialVersionUID = -8890378410852160347L;
-	
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class SaleAlbum {
+
 	@EmbeddedId
 	private SaleAlbumPK pk;
-	
-	public SaleAlbum() {}
-	
-	public SaleAlbum(SaleAlbumPK pk) {
-		super();
-		this.pk = pk;
-	}
-
-	public SaleAlbumPK getPk() {
-		return pk;
-	}
-
-	public void setPk(SaleAlbumPK pk) {
-		this.pk = pk;
-	}
-	
-
 }

@@ -4,6 +4,7 @@ import java.io.UnsupportedEncodingException;
 
 import javax.validation.Valid;
 
+import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -24,14 +25,11 @@ import br.com.pedrosa.api.utils.ApiUtils;
 
 @RestController
 @RequestMapping("api/V1/sale")
+@AllArgsConstructor
 public class SaleController   {
 	
 	private SaleService vendaService;
-	
-	public SaleController(SaleService vendaService) {
-		this.vendaService = vendaService;
-	}
-	
+
 	@GetMapping("{id}")
 	@ResponseStatus(HttpStatus.OK)
 	public SaleDTO findById(@PathVariable Long id) throws ResourceNotFoundException {

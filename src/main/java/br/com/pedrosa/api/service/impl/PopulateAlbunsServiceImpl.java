@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.List;
 
+import lombok.AllArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -23,17 +24,12 @@ import br.com.pedrosa.api.spotify.dto.ResponseSpotifyDTO;
 import br.com.pedrosa.api.utils.ApiUtils;
 
 @Service
+@AllArgsConstructor
 public class PopulateAlbunsServiceImpl implements PopulateAlbunsService {
 
 	private AlbumService albumService;
 	private ApiSpotifyServiceImpl apiSpotifyService;
 	private GenreService genreService;
-	
-	public PopulateAlbunsServiceImpl(AlbumService albumService, ApiSpotifyServiceImpl apiSpotifyService,GenreService genreService) {
-		this.albumService = albumService;
-		this.apiSpotifyService = apiSpotifyService;
-		this.genreService = genreService;
-	}
 	
 	@Override
 	public void populateAlbunsFromJson() throws  IOException {
@@ -58,7 +54,12 @@ public class PopulateAlbunsServiceImpl implements PopulateAlbunsService {
 	private void saveAlbuns(GenreDTO genreDTO, ResponseSpotifyDTO responseSpotifyDTO) {
 		responseSpotifyDTO.getAlbums().getItems().forEach(item -> {
 			ArtistDTO artistDTO = item.getArtists().get(0);
-			albumService.save(new Album(item.getName(), artistDTO.getName(), item.getTotalTracks(),item.getReleaseDate(), ApiUtils.generatePriceRandom(10,50), genreService.convertToEntity(genreDTO)));
+			albumService.save(new Album(null,item.getName(),
+					artistDTO.getName(),
+					item.getTotalTracks(),
+					item.getReleaseDate(),
+					ApiUtils.generatePriceRandom(10,50),
+					genreService.convertToEntity(genreDTO)));
 		});
 	}
 

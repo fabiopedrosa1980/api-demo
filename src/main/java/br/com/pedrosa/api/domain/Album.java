@@ -1,105 +1,27 @@
 package br.com.pedrosa.api.domain;
 
-import java.io.Serializable;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "ALBUM")
-public class Album implements Serializable {
-
-	private static final long serialVersionUID = 2466847570460914386L;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Album {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ID")
 	private Long id;
-	
 	private String name;
-
 	private String artist;
-
 	private Integer tracks;
-
 	private String dateRelease;
-
 	private Double price;
-	
-	public Album() {}
-	
-	public Album(String name, String artist, Integer tracks, String dateRelease, Double price, Genre genre) {
-		super();
-		this.name = name;
-		this.artist = artist;
-		this.tracks = tracks;
-		this.dateRelease = dateRelease;
-		this.price = price;
-		this.genre = genre;
-	}
-
 	@OneToOne
 	private Genre genre;
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getArtist() {
-		return artist;
-	}
-
-	public void setArtist(String artist) {
-		this.artist = artist;
-	}
-
-	public Integer getTracks() {
-		return tracks;
-	}
-
-	public void setTracks(Integer tracks) {
-		this.tracks = tracks;
-	}
-
-	public String getDateRelease() {
-		return dateRelease;
-	}
-
-	public void setDateRelease(String dateRelease) {
-		this.dateRelease = dateRelease;
-	}
-
-	public Double getPrice() {
-		return price;
-	}
-
-	public void setPrice(Double price) {
-		this.price = price;
-	}
-
-	public Genre getGenre() {
-		return genre;
-	}
-
-	public void setGenre(Genre genre) {
-		this.genre = genre;
-	}
-	
 }
