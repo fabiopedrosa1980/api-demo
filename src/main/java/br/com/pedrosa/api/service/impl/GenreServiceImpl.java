@@ -39,7 +39,4 @@ public class GenreServiceImpl implements GenreService {
 		return modelMapper.map(genreDTO, Genre.class);
 	}
 
-	
-	
-
 }

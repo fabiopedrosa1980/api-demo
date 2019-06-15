@@ -27,25 +27,25 @@ import br.com.pedrosa.api.utils.ApiUtils;
 @AllArgsConstructor
 public class SaleController   {
 	
-	private SaleService vendaService;
+	private SaleService saleService;
 
 	@GetMapping("{id}")
 	@ResponseStatus(HttpStatus.OK)
 	public SaleDTO findById(@PathVariable Long id) throws ResourceNotFoundException {
-		return vendaService.findById(id);
+		return saleService.findById(id);
 	}
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
 	public SaleDTO sell(@Valid @RequestBody SaleInDTO venda) {
-		return vendaService.sell(venda);
+		return saleService.sell(venda);
 		
 	}
 	
 	@GetMapping("search/{startDate}/{endDate}")
 	@ResponseStatus(HttpStatus.OK)
 	public Page<SaleDTO> search(@PathVariable String startDate, @PathVariable String endDate,Pageable pageable) throws UnsupportedEncodingException {
-		return vendaService.findAllSallesByPeriod(ApiUtils.decode(startDate), ApiUtils.decode(endDate), pageable);
+		return saleService.findAllSallesByPeriod(ApiUtils.decode(startDate), ApiUtils.decode(endDate), pageable);
 	}
 
 }
